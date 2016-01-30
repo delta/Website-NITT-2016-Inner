@@ -1,0 +1,9 @@
+/* Footer */
+#k-footer { background: url(img/footer-bg.png) repeat left top scroll #FFF; border-top: 1px solid #EEE; padding: 40px 0; }
+/* == END site footer == */
+
+/* == site subfooter == */
+#k-subfooter { background-color: #111; }
+.copy-text { font-size: 11px; line-height: 16px; margin-bottom: 0; padding: 40px 0; text-transform: uppercase; }
+/* == END site subfooter == */
+

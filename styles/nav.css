@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+.sidebar{
+    display: none;   
+    }
+}
+.hidden {
+  display: none;
+  opacity: 0;
+}
+.visuallyhidden {
+  opacity: 0;
+}
