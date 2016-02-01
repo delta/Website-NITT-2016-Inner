@@ -257,8 +257,8 @@ if(!defined('__PRAGYAN_CMS'))
 <div class="container-fluid">
 <button type="button" class="btn btn-default visible-xs" onclick="toggleSidebar()"> Sidebar </button>
     <div class="row">
-    <div class="col-md-3 col-lg-2 col-sm-3 col-xs-5 sidebar  ">
-		<div class="contentcontainer">
+    <div class="col-md-3 col-lg-2 col-sm-3 col-xs-5 sidebar" style="border:2px solid #f6f6f6">
+		
 			<div id="cms-leftcontent">
 				<div class="menucontainer">
 					<?php echo $MENUBAR; ?>
@@ -267,7 +267,7 @@ if(!defined('__PRAGYAN_CMS'))
 				
 			</div>
             </div>
-            </div>
+        
             <div class="col-md-10 col-xs-10 contentSide">
 			<div id="cms-content">
       

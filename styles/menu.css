@@ -41,13 +41,17 @@ div.cms-menuhead{
 ul.topnav > li > a:link, ul.topnav > li > a:visited {
 	color: #3688BA;
 	display: block;
-	background:  url(../images/menu.gif);
+	
 	padding: 8px 0 0 30px;
 	}
+
+ul.topnav > li > a{
+height: auto;
+}
 	
 ul.topnav > li > a:hover {
 	color: #3688BA;
-	background:  url(../images/menu.gif) 0 -32px;
+	/*background:  url(../images/menu.gif) 0 0;*/
 	border:none;	
 	padding: 8px 0 0 30px;
 	}
