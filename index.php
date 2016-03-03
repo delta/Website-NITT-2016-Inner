@@ -38,17 +38,15 @@ if(!defined('__PRAGYAN_CMS'))
     <link rel="stylesheet" type="text/css" href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/breadcrumb.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/actionbar.css" />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800" rel="stylesheet" type="text/css"><!-- Google web fonts -->
-    <link href="<?php echo $TEMPLATEBROWSERPATH; ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"><!-- font-awesome -->
     
     <link href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/bootstrap.min.css" rel="stylesheet" type="text/css"><!-- Bootstrap -->
     <link href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/dropdown-menu.css" rel="stylesheet" type="text/css"><!-- dropdown-menu -->
     <link href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/common.css" rel="stylesheet" type="text/css"><!-- Fancybox -->
     <link href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/style.css" rel="stylesheet" type="text/css"><!-- theme styles -->
     <link href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/custom.css" rel="stylesheet" type="text/css"><!--custom -->
-    <link rel="stylesheet" type="text/css" href="<?php echo $TEMPLATEBROWSERPATH; ?>/css/myStyle.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/myStyle.css" />
     <link rel="icon" type="image/png" href="<?php echo $TEMPLATEBROWSERPATH; ?>/image/logo.png">
         
-        <script type="text/javascript" src="<?php echo $TEMPLATEBROWSERPATH; ?>/js/fix_nav.js"></script>
         <script language="javascript" type="text/javascript">
         //defined here for use in javascript
         var templateBrowserPath = "<?php echo $TEMPLATEBROWSERPATH ?>";
