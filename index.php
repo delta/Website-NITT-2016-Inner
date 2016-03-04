@@ -406,8 +406,8 @@ if(!defined('__PRAGYAN_CMS'))
         $(this).children('.child').toggle("slow");
   });</script>
     <!-- Pie charts -->
-    <script src="<?php echo $TEMPLATEBROWSERPATH; ?>/scripts/jquery.easy-pie-chart.js"></script>
-    
+    <!--<script src="<?php echo $TEMPLATEBROWSERPATH; ?>/scripts/jquery.easy-pie-chart.js"></script>
+    -->
     <!-- Google Maps -->
     <script type="text/javascript">
         $('.dep').hide();
