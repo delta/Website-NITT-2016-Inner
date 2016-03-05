@@ -357,7 +357,7 @@ body {
     z-index : auto;
 }
 
-.sideMenu > li > ul
+.sideMenu > li
 {
     list-style-type: disc;
     margin-left: 10px;
