@@ -44,7 +44,6 @@ if(!defined('__PRAGYAN_CMS'))
     <link href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/dropdown-menu.css" rel="stylesheet" type="text/css"><!-- dropdown-menu -->
     <link href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/common.css" rel="stylesheet" type="text/css"><!-- Fancybox -->
     <link href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/style.css" rel="stylesheet" type="text/css"><!-- theme styles -->
-    <link href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/custom.css" rel="stylesheet" type="text/css"><!--custom -->
     <link rel="stylesheet" type="text/css" href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/myStyle.css" />
     <link rel="icon" type="image/png" href="<?php echo $TEMPLATEBROWSERPATH; ?>/image/logo.png">
         
