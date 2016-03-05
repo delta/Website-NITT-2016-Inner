@@ -11,7 +11,7 @@
 	
 	}*/
 
-ul.sideMenu {
+ul.sideMenu , ul.sideMenu > ul{
 	width: 100%;
 	margin: 10px;
 	border-style: solid solid none solid;
@@ -31,7 +31,7 @@ ul.sideMenu {
 	text-decoration: none;
 	}*/
 
-ul.sideMenu > li > a {
+ul.sideMenu > li > a , ul.sideMenu > ul > li > a{
 	height: 32px;
   	voice-family: inherit;
   	height: 24px;
@@ -79,7 +79,7 @@ div#menubar > h2{
 	padding: 8px 0 0 30px;
 	}*/
 
-ul.sideMenu > li > a:link, ul.sideMenu> li > a:visited {
+ul.sideMenu > li > a:link, ul.sideMenu> li > a:visited  , ul.sideMenu > ul > li > a:link, ul.sideMenu> ul > li > a:visited{
 	color: #515558;
 	display: block;
 	
@@ -91,7 +91,7 @@ height: auto;
 }
 */
 
-ul.sideMenu > li > a{
+ul.sideMenu > li > a , ul.sideMenu > ul > li > a{
 height: auto;
 }
 
@@ -103,7 +103,7 @@ height: auto;
 	}
 */
 
-ul.sideMenu > li > a:hover {
+ul.sideMenu > li > a:hover , ul.sideMenu > ul > li > a:hover {
 	color: #3688BA;
 	/*background:  url(../images/menu.gif) 0 0;*/
 	border:none;	
