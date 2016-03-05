@@ -63,6 +63,7 @@ div#menubar > h2{
 	text-align : center;
 	padding:3px 3px 3px 6px;
 	font-size:14px;
+	margin: 0px;
 
 	font-family:"trebuchet ms", helvetica;
 }
