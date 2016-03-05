@@ -325,7 +325,7 @@ body {
     perspective : none;
     perspective-origin : 50% 50%;
     position : static;
-    /* May need to alter quotes for different locales (e.g fr) 
+    /* May need to alter quotes for different locales (e.g fr) */
     quotes : '\201C' '\201D' '\2018' '\2019';
     right : auto;
     tab-size : 8;
@@ -356,5 +356,3 @@ body {
     word-spacing : normal;
     z-index : auto;
 }
-*/
-
