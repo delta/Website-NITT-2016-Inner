@@ -357,12 +357,6 @@ body {
     z-index : auto;
 }
 
-.sideMenu > li > ul >li
-{
-    list-style-type: disc;
-    margin-left: 10px;
-}
-
 .sideMenu > li > ul > li > a 
 {
     color: #888E91;

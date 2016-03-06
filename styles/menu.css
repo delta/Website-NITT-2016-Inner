@@ -11,9 +11,8 @@
 	
 	}*/
 
-ul.sideMenu , ul.sideMenu > li > ul{
+ul.sideMenu {
 	width: 100%;
-	margin: 10px;
 	border-style: solid solid none solid;
 	border-color: #D8D5D1;
 	border-size: 1px;
@@ -23,7 +22,13 @@ ul.sideMenu , ul.sideMenu > li > ul{
 	padding:0;
 	
 	}	
+ul.sideMenu > li > ul{
+	width: 100%;
+	margin: 10px;
+	list-style:disc;
+	padding:0;
 	
+	}	
 /*ul.topnav > li > a {
 	height: 32px;
   	voice-family: inherit;
