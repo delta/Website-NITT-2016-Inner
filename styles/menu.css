@@ -24,9 +24,8 @@ ul.sideMenu {
 	}	
 ul.sideMenu > li > ul{
 	width: 100%;
-	margin: 10px;
+	margin: 0px;
 	list-style:disc;
-	padding:0;
 	
 	}	
 /*ul.topnav > li > a {
