@@ -69,8 +69,9 @@ if(!defined('__PRAGYAN_CMS'))
 <header class="myheader" >
         <img src="<?php echo $TEMPLATEBROWSERPATH; ?>/image/header.png" style="padding:10px 0px 10px 0px;" />
     <!-- device test, don't remove. javascript needed! -->
-    <span class="visible-xs" style="padding-bottom:5px;background-color:#cc0033;" ></span><span class="visible-sm"></span><span class="visible-md"></span><span class="visible-lg" style="padding-bottom:5px;background-color:#cc0033;"></span>
+    <!-- <span class="visible-xs" style="padding-bottom:5px;background-color:#cc0033;" ></span><span class="visible-sm"></span><span class="visible-md"></span><span class="visible-lg" style="padding-bottom:5px;background-color:#cc0033;"></span> -->
     <!-- device test end -->
+    <hr style="height:2px;background-color:#cc0033;">
     
     <div id="k-head" class="container-fluid"><!-- container + head wrapper -->
     
