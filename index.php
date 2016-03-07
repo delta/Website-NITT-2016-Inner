@@ -213,8 +213,7 @@ if(!defined('__PRAGYAN_CMS'))
                     </ul>
         
                 </nav><!-- main navig end -->
-                <div class="visible-lg" style="background-color:#cc0033;padding-bottom:35px;"></div>
-				</div>
+                </div>
             </div>
             
         </div><!-- row end -->
