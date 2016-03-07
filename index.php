@@ -309,11 +309,11 @@ if(!defined('__PRAGYAN_CMS'))
                     <div class="footer-col-inner paddedfooter">
                         <h3>Academics</h3>
                         <ul>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Academics Programmes</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Departments</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Faculty</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Rules & Regulations</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Scholarships</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Academics Programmes</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Departments</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Faculty</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Rules & Regulations</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Scholarships</a></li>
                         </ul>
                     </div><!--//footer-col-inner-->
                 </div><!--//foooter-col-->
@@ -322,11 +322,11 @@ if(!defined('__PRAGYAN_CMS'))
                     <div class="footer-col-inner paddedfooter">
                         <h3>Admissions</h3>
                         <ul>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> B.Tech/B.Arc</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> M.Tech/M.Sc</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> MCA/MBA</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> MS(research)</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Ph.D</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> B.Tech/B.Arc</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> M.Tech/M.Sc</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> MCA/MBA</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> MS(research)</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Ph.D</a></li>
                         </ul>
                     </div><!--//footer-col-inner-->
                 </div><!--//foooter-col-->
@@ -335,10 +335,10 @@ if(!defined('__PRAGYAN_CMS'))
                     <div class="footer-col-inner paddedfooter">
                         <h3>Students Life</h3>
                         <ul >
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Events</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Clubs & Associations</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Hostel & Messes</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Office Of Dean(students)</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Events</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Clubs & Associations</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Hostel & Messes</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Office Of Dean(students)</a></li>
                             
                         </ul>
                    </div><!--//footer-col-inner-->
@@ -348,11 +348,11 @@ if(!defined('__PRAGYAN_CMS'))
                     <div class="footer-col-inner paddedfooter">
                         <h3>Other Links</h3>
                         <ul>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Tenders & Notices</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Job Opportunities</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> RTI</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> Recal-Alumini</a></li>
-                            <li><a href="#"><i class="fa fa-caret-right"></i> SiteMap</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Tenders & Notices</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Job Opportunities</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> RTI</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Recal-Alumini</a></li>
+                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> SiteMap</a></li>
                             
                         </ul>
                     </div><!--//footer-col-inner-->
