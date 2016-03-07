@@ -166,7 +166,12 @@ span.alter-menu-icon { display: block; width: 24px; height: 24px; background: ur
 /* == END dropdown-menu kustom style == */
 
 /* ================================================== VARIOUS PAGE ELEMENTS */
-
+/* == html == */
+html {
+    position: relative;
+    min-height: 100%;
+}
+/* == END html == */
 /* == site header == */
 #k-head { margin-bottom: 40px; }
 #k-site-logo { position: relative; }
@@ -204,6 +209,7 @@ span.alter-menu-icon { display: block; width: 24px; height: 24px; background: ur
 /* == END site body == */
 
 /* == site footer == */
+footer {position: absolute;left: 0;bottom: 0;height: auto;width: 100%;}
 #k-footer { background: url(img/footer-bg.png) repeat left top scroll #FFF; border-top: 1px solid #EEE; padding: 40px 0; }
 .paddedfooter {padding-left: 50px;}
 .marginfooter {margin-top: -20px;}

@@ -55,6 +55,7 @@ if(!defined('__PRAGYAN_CMS'))
    
     <script language="javascript" type="text/javascript" src="<?php echo  $TEMPLATEBROWSERPATH; ?>/scripts/jquery-latest.js" ></script>
     <script type="text/javascript" src="<?php echo $TEMPLATEBROWSERPATH; ?>/scripts/script.js"></script>
+    <script type="text/javascript" src="<?php echo $TEMPLATEBROWSERPATH; ?>/scripts/stickyfooter.js"></script>
 
     <script language="javascript" type="text/javascript">
 		//defined here for use in javascript
