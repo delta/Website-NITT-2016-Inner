@@ -46,7 +46,7 @@ span.alter-menu-icon { display: block; width: 24px; height: 24px; background: ur
 /* ================================================== VARIOUS PAGE ELEMENTS */
 
 /* == site header == */
-#k-head { margin-bottom: 20px; }
+/*#k-head { margin-bottom: 20px; } */
 #k-site-logo { position: relative; }
 .k-logo { margin: 0; }
 /* == END site header == */
