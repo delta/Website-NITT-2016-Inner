@@ -254,7 +254,7 @@ if(!defined('__PRAGYAN_CMS'))
     </header>
     
 <div class="container-fluid">
-<button type="button" class="btn btn-default visible-xs" onclick="toggleSidebar()"> Sidebar </button>
+<!--<button type="button" class="btn btn-default visible-xs" onclick="toggleSidebar()"> Sidebar </button>-->
     <div class="row">
     <div class="col-md-3 col-lg-2 col-sm-3 col-xs-5 sidebar" style="border:2px solid #f6f6f6">
 		
@@ -284,7 +284,7 @@ if(!defined('__PRAGYAN_CMS'))
         </div>
         </div>
 </div>
-<script type="text/javascript">
+<!--<script type="text/javascript">
     var i=0;
     function toggleSidebar(){
         if(i%2==0){
@@ -301,7 +301,7 @@ if(!defined('__PRAGYAN_CMS'))
             i=0;
         }
     }
-</script>
+</script>-->
     <footer class="footer">
         <div class="footer-content">
             <div class="container-fluid">
