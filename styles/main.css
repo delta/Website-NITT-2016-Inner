@@ -362,3 +362,9 @@ body {
     color: #888E91;
     border: 0px;
 } 
+
+.contentSide
+{
+    border:1px solid rgba(168, 168, 168, 0.56);
+    border-radius:10px;
+}
