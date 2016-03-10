@@ -11,17 +11,24 @@
 	
 	}*/
 
-ul.sideMenu {
+.sidebar
+{
+	margin:10px;
+}
+ul.sideMenu , ul.sideMenu > li > ul
+{
 	width: 100%;
-	border-style: solid solid none solid;
-	border-color: #D8D5D1;
+	margin: 10px;
+	border-style: solid solid solid solid;
+	border-color: #F1F1F1;
 	border-size: 1px;
 	border-width: 1px;
 	list-style:none outside none;
 	margin:0;
 	padding:0;
-	
-	}	
+	padding-bottom:20px;
+}	
+		
 ul.sideMenu > li > ul{
 	width: 100%;
 	margin: 0px;
@@ -87,7 +94,7 @@ ul.sideMenu > li > a:link, ul.sideMenu> li > a:visited  , ul.sideMenu > li > ul 
 	color: #515558;
 	display: block;
 	
-	padding: 8px 0 0 30px;
+	padding: 8px 4px 10px 10px;
 	}
 
 /*ul.topnav > li > a{
