@@ -1,8 +1,8 @@
 @media screen and (max-width: 480px) {
-.sidebar{
+/*.sidebar{
     display: none;   
     }
-}
+}*/
 .hidden {
   display: none;
   opacity: 0;
