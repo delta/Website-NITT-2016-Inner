@@ -70,7 +70,7 @@ div#menubar > h2{
 	color:#787878;
 	border-left: 5px #787878 solid;
 	border-right: 5px #787878 solid;
-	background-color : #cdcdcd;
+	background-color : #f1f1f1;
 	text-align : center;
 	padding:3px 3px 3px 6px;
 	font-size:14px;
@@ -91,7 +91,7 @@ div#menubar > h2{
 	}*/
 
 ul.sideMenu > li > a:link, ul.sideMenu> li > a:visited  , ul.sideMenu > li > ul > a:link, ul.sideMenu> li >ul > a:visited{
-	color: #515558;
+	color: #000000;
 	display: block;
 	
 	padding: 8px 4px 10px 10px;
@@ -115,7 +115,7 @@ height: auto;
 */
 
 ul.sideMenu > li > a:hover , ul.sideMenu  > li > ul > a:hover {
-	color: #3688BA;
+	color:#F99393;
 	/*background:  url(../images/menu.gif) 0 0;*/
 	border:none;	
 	padding: 8px 0 0 30px;
