@@ -116,7 +116,7 @@ span.alter-menu-icon { display: block; width: 24px; height: 24px; background: ur
 		position: relative;
 	}
 	.myheader img{
-		height: 50px;
+		max-height: 91px;
 		width:1200px;
 	}
 
