@@ -268,7 +268,7 @@ if(!defined('__PRAGYAN_CMS'))
 			</div>
             </div>
         
-            <div class="col-md-10 col-lg-10 col-sm-9 col-xs-7 contentSide">
+            <div class="col-md-9 col-lg-9 col-sm-8 col-xs-6 contentSide">
 			<div id="cms-content">
       
 				<?php echo $INFOSTRING; ?>
