@@ -121,7 +121,7 @@ ul.sideMenu > li > a:hover , ul.sideMenu  > li > ul > a:hover {
 	color:#F99393;
 	/*background:  url(../images/menu.gif) 0 0;*/
 	border:none;	
-	padding: 8px 0 0 10px;
+	padding: 12px 4px 10px 10px;
 	}
 
 ul.subnav {
