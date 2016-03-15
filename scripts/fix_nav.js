@@ -1,6 +1,6 @@
 $(document).ready(function() {
 $(document).scroll(function scroll_fix_nav	() {
-  var headerHeight = ('header').outerHeight(true)-$('[id="k-menu affix"]').outerHeight();
+  var headerHeight = $('header').outerHeight(true)-$('[id="k-menu affix"]').outerHeight();
   if(($(window).width()) >=1001){
   if(window.scrollY >= headerHeight)
   	{
