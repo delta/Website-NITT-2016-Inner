@@ -1,7 +1,7 @@
 $(document).ready(function() {
 $(document).scroll(function scroll_fix_nav	() {
+ if(($(window).width()) >=1001){ 
   var headerHeight = $('header').outerHeight(true)-$('[id="k-menu affix"]').outerHeight();
-  if(($(window).width()) >=1001){
   if(window.scrollY >= headerHeight)
   	{
   		if($('[id="k-menu affix"]').attr('class') == 'k-main-navig')
