@@ -256,7 +256,7 @@ if(!defined('__PRAGYAN_CMS'))
 <div class="container-fluid">
 <!--<button type="button" class="btn btn-default visible-xs" onclick="toggleSidebar()"> Sidebar </button>-->
     <div class="row" style="background-color: #f9f9f9;padding-top: 10px;border-top:1px solid #f1f1f1; ">
-    <div class="col-md-2 col-lg-2 col-sm-3 col-xs-5 sidebar" style="border:2px solid #f6f6f6">
+    <div class="col-md-2 col-lg-2 col-sm-3 col-xs-11 sidebar" style="border:2px solid #f6f6f6">
 		
 			<div id="cms-leftcontent">
 				<div class="menucontainer">
@@ -267,7 +267,7 @@ if(!defined('__PRAGYAN_CMS'))
 			</div>
             </div>
         
-            <div class="col-md-9 col-lg-9 col-sm-8 col-xs-6 contentSide">
+            <div class="col-md-9 col-lg-9 col-sm-8 col-xs-11 contentSide">
 			<div id="cms-content">
       
 				<?php echo $INFOSTRING; ?>
