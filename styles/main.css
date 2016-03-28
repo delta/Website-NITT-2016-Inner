@@ -4,6 +4,11 @@
 /**
  * Cancel Some Annoying Stylings SHOULD BE THE FIRST
  */
+
+td {
+    padding: 3%;
+}
+
 div {
 	margin: 0;
 	padding: 0;
