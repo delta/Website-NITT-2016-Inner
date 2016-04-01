@@ -25,11 +25,15 @@
 	
 	/* ---------- handle navigation for smaller devices */
 	CHEF.mobileMenuClone = '';
+
+	function menucloner(){
 	if( $(window).width()<1001){ CHEF.mobileMenuClone = $( '[id="k-menu affix"]' ).clone().attr( 'id', 'navigation-mobile' );}
 	else {$('.k-main-navig').show();}
+
+}
 	CHEF.mobileNav = function() {
 
-		
+		menucloner();
 		if( CHEF.mobileMenuClone!='' ) {
 			CHEF.mobileMenuClone.insertAfter( '[id="k-menu affix"]' );
 			$('.k-main-navig').hide();
@@ -64,10 +68,11 @@
 			$( 'nav#navigation-mobile' ).css( 'display', 'none' );
 		}
 		else if(!is_small_res)
-			$('#k-menu').css('display' , 'block');
+			$('.k-main-navig').css('display' , 'block');
 		else if(is_small_res)
 		{
-			$('#k-menu').css('display' , 'none');
+			CHEF.mobileNav();
+			$('.k-main-navig').css('display' , 'none');
 		}
 	}
 	/* ---------- end handle top-search toggle ---------- */
