@@ -22,7 +22,17 @@ $(document).scroll(function scroll_fix_nav	() {
 
 }
 });
+$(window).resize(function(){
+    if( $(window).width()<1001){ CHEF.mobileMenuClone = $( '[id="k-menu affix"]' ).clone().attr( 'id', 'navigation-mobile' );
+
+      $('#k-menu').css('display','none')
+
+      }
+  else {$('.k-main-navig').show();}
+  }
+  );
 // else {
 // 	$(".k-main-navig").css("visibility", "hidden");
 // }
+
 });

@@ -38,6 +38,16 @@
 			$( 'nav#navigation-mobile > ul' ).removeAttr( 'id' ).removeClass( 'k-dropdown-menu' ).addClass( 'list-unstyled' );
 		}
 	}
+
+	window.onresize = function(){
+		if( $(window).width()<1001){ CHEF.mobileMenuClone = $( '[id="k-menu affix"]' ).clone().attr( 'id', 'navigation-mobile' );
+
+			$('#k-menu').css('display','none')
+
+			}
+	else {$('.k-main-navig').show();}
+	}
+
 	CHEF.listenerMenu = function() {
 		$( '#mobile-nav-switch' ).on( 'click', function(e) {
 			$( this ).toggleClass( 'open' );
