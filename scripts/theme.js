@@ -39,14 +39,6 @@
 		}
 	}
 
-	window.onresize = function(){
-		if( $(window).width()<1001){ CHEF.mobileMenuClone = $( '[id="k-menu affix"]' ).clone().attr( 'id', 'navigation-mobile' );
-
-			$('#k-menu').css('display','none')
-
-			}
-	else {$('.k-main-navig').show();}
-	}
 
 	CHEF.listenerMenu = function() {
 		$( '#mobile-nav-switch' ).on( 'click', function(e) {
@@ -70,6 +62,12 @@
 		var is_mobile_nav_visible = ( $( 'nav#navigation-mobile' ).css( 'display' ) === 'block' ) ? true : false;
 		if( !is_small_res && is_mobile_nav_visible ) {
 			$( 'nav#navigation-mobile' ).css( 'display', 'none' );
+		}
+		else if(!is_small_res)
+			$('#k-menu').css('display' , 'block');
+		else if(is_small_res)
+		{
+			$('#k-menu').css('display' , 'none');
 		}
 	}
 	/* ---------- end handle top-search toggle ---------- */
