@@ -66,14 +66,19 @@
 		var is_mobile_nav_visible = ( $( 'nav#navigation-mobile' ).css( 'display' ) === 'block' ) ? true : false;
 		if( !is_small_res && is_mobile_nav_visible ) {
 			$( 'nav#navigation-mobile' ).css( 'display', 'none' );
+			$('.paddedfooter > ul').css('display' , 'block');
 		}
 		else if(!is_small_res)
+		{
 			$('.k-main-navig').css('display' , 'block');
+			$('.paddedfooter > ul').css('display' , 'block');
+		}
 		else if(is_small_res)
 		{
 			if(!($( 'nav#navigation-mobile' )))
 			CHEF.mobileNav();
 			$('.k-main-navig').css('display' , 'none');
+			$('.paddedfooter > ul').css('display' , 'none');
 		}
 	}
 	/* ---------- end handle top-search toggle ---------- */
