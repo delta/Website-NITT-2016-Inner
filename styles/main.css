@@ -24,7 +24,7 @@ a {
 
 ul.sub-menu > li >a
 {
-    visibility: visible;
+    display: none;
 }
 
 body {
