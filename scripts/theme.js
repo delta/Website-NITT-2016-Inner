@@ -71,6 +71,7 @@
 			$('.k-main-navig').css('display' , 'block');
 		else if(is_small_res)
 		{
+			if(!($( 'nav#navigation-mobile' )))
 			CHEF.mobileNav();
 			$('.k-main-navig').css('display' , 'none');
 		}
