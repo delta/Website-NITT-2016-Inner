@@ -27,6 +27,12 @@ ul.list-unstyled>li>ul.sub-menu > li >a
     display: none;
 }
 
+ul#department-list
+{
+    display: block;
+    visibility: visible;
+}
+
 body {
 	background-color: #333;
 	padding:0;
