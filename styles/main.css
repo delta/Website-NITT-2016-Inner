@@ -22,15 +22,16 @@ a {
 	color: #006699;
 }
 
-ul.list-unstyled>li>ul.sub-menu > li >a
+ul.list-unstyled > li > ul.sub-menu
 {
-    display: none;
+    display: none !important;
 }
 
-ul#department-list
+ul.list-unstyled>li>ul#department-list
 {
     display: block;
-    visibility: visible;
+    visibility: visible !important;
+    list-style-type:none;
 }
 
 body {
