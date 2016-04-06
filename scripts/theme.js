@@ -75,7 +75,7 @@
 		}
 		else if(is_small_res)
 		{
-			if(!($( 'nav#navigation-mobile' )))
+			if(($( 'nav#navigation-mobile' )).length==0)
 			CHEF.mobileNav();
 			$('.k-main-navig').css('display' , 'none');
 			$('.paddedfooter > ul').css('display' , 'none');
