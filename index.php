@@ -168,7 +168,7 @@ if(!defined('__PRAGYAN_CMS'))
                         <li>
                             <a id="d" href="#" title="" class="department"><i class="fa fa-toggle-off"></i> Department</a>
                             <script>$('#d').click(function(){$(this).find('i').toggleClass('fa-toggle-off fa-toggle-on');});</script>
-                            <ul class="sub-menu visible-xs">
+                            <ul id='department-list' class="sub-menu visible-xs">
                                 <li><a href="#">Computer Science & Engineering</a></li>
                                 <li><a href="#">Electrical & Electronics Engineering</a></li>
                                 <li><a href="#">Electronics & Communication Engineering</a></li>
