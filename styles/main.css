@@ -22,7 +22,7 @@ a {
 	color: #006699;
 }
 
-ul.sub-menu > li >a
+ul.list-unstyled>li>ul.sub-menu > li >a
 {
     display: none;
 }
