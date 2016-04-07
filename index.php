@@ -254,7 +254,7 @@ if(!defined('__PRAGYAN_CMS'))
     </header>
     
 <div class="container-fluid">
-<!--<button type="button" class="btn btn-default visible-xs" onclick="toggleSidebar()"> Sidebar </button>-->
+<a class="visible-xs" onclick="toggleSidebar()">&#9776;</a>
     <div class="row" style="background-color: #f9f9f9;padding-top: 10px;border-top:1px solid #f1f1f1; ">
     <div class="col-md-2 col-lg-2 col-sm-3 col-xs-11 sidebar" style="border:2px solid #f6f6f6">
 		
@@ -284,24 +284,15 @@ if(!defined('__PRAGYAN_CMS'))
         </div>
         </div>
 </div>
-<!--<script type="text/javascript">
-    var i=0;
-    function toggleSidebar(){
-        if(i%2==0){
-            $('.contentSide').removeClass('col-xs-10');
-            $('.contentSide').addClass('col-xs-7');
-            $('.sidebar').delay(100).fadeIn("slow");
-
-            i++;
-        }
-        else{
-            $('.sidebar').delay(0).hide();
-            $('.contentSide').removeClass('col-xs-7');
-            $('.contentSide').addClass('col-xs-10');
-            i=0;
-        }
+<script type="text/javascript">
+	$(document).ready(function() {
+    function toggleSidebar()
+	{
+			var $sidebar = $(this);
+			$sidebar.animate({ left: parseInt($sidebar.css('left'),10) == 0 ? -$sidebar.outerWidth(): 0});
     }
-</script>-->
+	});
+</script>
     <footer class="footer">
         <div class="footer-content">
             <div class="container-fluid">
