@@ -285,11 +285,13 @@ if(!defined('__PRAGYAN_CMS'))
         </div>
 </div>
 <script type="text/javascript">
+	$(document).ready(function() {
     function toggleSidebar()
 	{
 			var $sidebar = $(this);
-			$sidebar.animate({ left: parseInt($sidebar.css('left'),10) == 0 ? -$sidebar.outerWidth(): 0;});
+			$sidebar.animate({ left: parseInt($sidebar.css('left'),10) == 0 ? -$sidebar.outerWidth(): 0});
     }
+	});
 </script>
     <footer class="footer">
         <div class="footer-content">
