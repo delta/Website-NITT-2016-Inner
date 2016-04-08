@@ -256,7 +256,7 @@ if(!defined('__PRAGYAN_CMS'))
 <div class="container-fluid">
 <a class="visible-xs" onclick="toggleSidebar()">&#9776;</a>
     <div class="row" style="background-color: #f9f9f9;padding-top: 10px;border-top:1px solid #f1f1f1; ">
-    <div class="col-md-2 col-lg-2 col-sm-3 col-xs-11 sidebar" style="border:2px solid #f6f6f6">
+    <div class="col-md-2 col-lg-2 col-sm-3 col-xs-0 sidebar" style="border:2px solid #f6f6f6">
 		
 			<div id="cms-leftcontent">
 				<div class="menucontainer">
@@ -297,7 +297,7 @@ if(!defined('__PRAGYAN_CMS'))
         <div class="footer-content">
             <div class="container-fluid">
                 <div class="row duck">
-                <div class="footer-col col-md-3 col-sm-4 about marginfooter">
+                <div class="footer-col col-md-3 col-sm-6 about marginfooter">
                     <div class="footer-col-inner paddedfooter">
                         <h3>Academics</h3>
                         <ul>
@@ -310,7 +310,7 @@ if(!defined('__PRAGYAN_CMS'))
                     </div><!--//footer-col-inner-->
                 </div><!--//foooter-col-->
                
-                 <div class="footer-col col-md-3 col-sm-4 about marginfooter">
+                 <div class="footer-col col-md-3 col-sm-6 about marginfooter">
                     <div class="footer-col-inner paddedfooter">
                         <h3>Admissions</h3>
                         <ul>
@@ -323,7 +323,7 @@ if(!defined('__PRAGYAN_CMS'))
                     </div><!--//footer-col-inner-->
                 </div><!--//foooter-col-->
                
-                <div class="footer-col col-md-3 col-sm-4 about marginfooter">
+                <div class="footer-col col-md-3 col-sm-6 about marginfooter">
                     <div class="footer-col-inner paddedfooter">
                         <h3>Students Life</h3>
                         <ul >
@@ -336,7 +336,7 @@ if(!defined('__PRAGYAN_CMS'))
                    </div><!--//footer-col-inner-->
                 </div><!--//foooter-col-->
 
-                <div class="footer-col col-md-3 col-sm-4 about marginfooter">
+                <div class="footer-col col-md-3 col-sm-6 about marginfooter">
                     <div class="footer-col-inner paddedfooter">
                         <h3>Other Links</h3>
                         <ul>
