@@ -63,6 +63,7 @@ if(!defined('__PRAGYAN_CMS'))
 		var templateBrowserPath = "<?php echo $TEMPLATEBROWSERPATH ?>";
 		var urlRequestRoot = "<?php echo $urlRequestRoot?>";
 	</script>
+	<script type="text/javascript" src="/scripts/hamburgermenu.js"></script>
 
 </head>
 
@@ -252,11 +253,22 @@ if(!defined('__PRAGYAN_CMS'))
             </section>
     </div><!-- container + head wrapper end -->
     </header>
+
+<a class="visible-xs toggler" style="left:0;width:24px;">☰</a>
+<div class="MenuSlider" style="z-index:100; position:absolute;">
+	<div class="sidebarslider" style="border:2px solid #f6f6f6;left:0;background-color:white">
+		<div id="cms-leftcontentslider">
+			<div class="menucontainerslider">
+					<?php echo $MENUBAR; ?>
+					<?php if(isset($WIDGETS[4])) echo $WIDGETS[4]; ?>								
+			</div>
+		</div>
+	</div>
+</div>
     
 <div class="container-fluid">
-<a class="visible-xs" onclick="toggleSidebar()">&#9776;</a>
     <div class="row" style="background-color: #f9f9f9;padding-top: 10px;border-top:1px solid #f1f1f1; ">
-    <div class="col-md-2 col-lg-2 col-sm-3 col-xs-0 sidebar" style="border:2px solid #f6f6f6">
+    <div class="col-md-2 col-lg-2 col-sm-3 hidden-xs sidebar" style="border:2px solid #f6f6f6">
 		
 			<div id="cms-leftcontent">
 				<div class="menucontainer">
@@ -284,15 +296,6 @@ if(!defined('__PRAGYAN_CMS'))
         </div>
         </div>
 </div>
-<script type="text/javascript">
-	$(document).ready(function() {
-    function toggleSidebar()
-	{
-			var $sidebar = $(this);
-			$sidebar.animate({ left: parseInt($sidebar.css('left'),10) == 0 ? -$sidebar.outerWidth(): 0});
-    }
-	});
-</script>
     <footer class="footer">
         <div class="footer-content">
             <div class="container-fluid">

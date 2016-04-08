@@ -207,6 +207,13 @@ html {
 #k-body { background-color: #F9F9F9; border-top: 1px solid #F4F4F4; padding: 0 0 40px 0; }
 /* == END site body == */
 
+/* == sidebarslider == */
+.MenuSlider 
+{
+        display: none;
+}
+/* == END sidebarslider == */
+
 /* == site footer == */
 footer {position: absolute;left: 0;bottom: 0;height: auto;width: 100%;}
 #k-footer { background: url(img/footer-bg.png) repeat left top scroll #FFF; border-top: 1px solid #EEE; padding: 40px 0; }
@@ -746,7 +753,14 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { backgroun
 	#mobile-nav-switch { display: block; }
 	
 }
+
 @media (max-width: 1199px) {
 	#k-menu{display: block;z-index: 100;}
+}
+
+@media only screen and (max-width: 768px) {
+    .MenuSlider {
+        display: block;
+    }
 }
 /* == END media queries == */
