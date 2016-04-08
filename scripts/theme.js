@@ -267,6 +267,7 @@
 		CHEF.responsiveVideos(); // fitVids
 		CHEF.responsiveAudios(); // audio player
 		CHEF.pieChartz(); // easy pie charts
+		CHEF.chckNavigOpened();
 	} );
 	
 	$( window ).resize( function() {
