@@ -63,7 +63,7 @@ if(!defined('__PRAGYAN_CMS'))
 		var templateBrowserPath = "<?php echo $TEMPLATEBROWSERPATH ?>";
 		var urlRequestRoot = "<?php echo $urlRequestRoot?>";
 	</script>
-	<script type="text/javascript" src="/scripts/hamburgermenu.js"></script>
+	<script type="text/javascript" src="<?php echo $TEMPLATEBROWSERPATH; ?>/scripts/hamburgermenu.js"></script>
 
 </head>
 
