@@ -160,6 +160,7 @@ span.alter-menu-icon { display: block; width: 24px; height: 24px; background: ur
 #navigation-mobile .sub-menu li { font-weight: 400; }
 #navigation-mobile .sub-menu .sub-menu li { font-weight: 300; font-size: 12px; }
 #navigation-mobile li a { display: block; }
+#navigation-mobile li a i { display: none; }
 #navigation-mobile li a:link, #navigation-mobile li a:visited { color: #636363; }
 #navigation-mobile li a:hover, #navigation-mobile li a:focus { color: #FF1C00; }
 #dashboard {width: 100%;height: 35px;background-color:#CC0033; }
