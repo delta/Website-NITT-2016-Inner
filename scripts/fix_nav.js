@@ -1,6 +1,7 @@
 $(document).ready(function() {
 $(document).scroll(function scroll_fix_nav	() {
- if(($(window).width()) >=1001){ 
+  var is_small_res = ( $( '.visible-xs' ).css( 'display' ) === 'block' );
+ if(is_small_res){ 
   var headerHeight = $('header').outerHeight(true)-$('[id="k-menu affix"]').outerHeight();
   if(window.scrollY >= headerHeight)
   	{
