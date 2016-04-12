@@ -733,7 +733,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { backgroun
 	.k-carousel-caption { display: none; }
 }
 /* XS */
-@media (max-width: 769px) {
+@media (max-width: 1040px) {
 	.footer{background-color: black;}
 	.myheader{
 		top:-20px;
