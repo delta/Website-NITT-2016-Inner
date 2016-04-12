@@ -34,6 +34,12 @@ ul.list-unstyled>li>ul#department-list
     list-style-type:none;
 }
 
+ul.list-unstyled>li>a
+{
+    text-align: center;
+}
+
+
 body {
 	background-color: #333;
 	padding:0;
