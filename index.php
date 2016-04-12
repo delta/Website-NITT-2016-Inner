@@ -54,11 +54,10 @@ if(!defined('__PRAGYAN_CMS'))
     </script>
    
     <script language="javascript" type="text/javascript" src="<?php echo  $TEMPLATEBROWSERPATH; ?>/scripts/jquery-latest.js" ></script>
+    <script type="text/javascript" src="<?php echo  $TEMPLATEBROWSERPATH; ?>/scripts/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="<?php echo $TEMPLATEBROWSERPATH; ?>/scripts/script.js"></script>
     <script src="<?php echo $TEMPLATEBROWSERPATH; ?>/scripts/theme.js"></script>
     <script type="text/javascript" src="<?php echo $TEMPLATEBROWSERPATH; ?>/scripts/stickyfooter.js"></script>
-    <script type="text/javascript" src="<?php echo  $TEMPLATEBROWSERPATH; ?>/scripts/jquery-1.10.2.min.js"></script>
-
     <script language="javascript" type="text/javascript">
 		//defined here for use in javascript
 		var templateBrowserPath = "<?php echo $TEMPLATEBROWSERPATH ?>";
