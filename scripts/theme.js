@@ -38,7 +38,7 @@
 		menucloner();
 		if( CHEF.mobileMenuClone!='' ) {
 			CHEF.mobileMenuClone.insertAfter( '[id="k-menu affix"]' );
-			$('.k-main-navig').hide();
+			$('[id="k-menu affix"]').hide();
 
 			$( 'nav#navigation-mobile' ).removeClass( 'k-main-navig' );
 			$( 'nav#navigation-mobile > ul' ).removeAttr( 'id' ).removeClass( 'k-dropdown-menu' ).addClass( 'list-unstyled' );
