@@ -27,7 +27,8 @@
 	CHEF.mobileMenuClone = '';
 
 	function menucloner(){
-	var is_small_res = ( $( '.visible-xs' ).css( 'display' ) === 'block' );	
+	//var is_small_res = ( $( '.visible-xs' ).css( 'display' ) === 'block' );
+	var is_small_res = ($(window).width() <= 1040);	
 	if(is_small_res){ CHEF.mobileMenuClone = $( '[id="k-menu affix"]' ).clone().attr( 'id', 'navigation-mobile' );}
 	else {$('.k-main-navig').show();}
 
