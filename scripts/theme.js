@@ -64,7 +64,8 @@
 		} );
 	}
 	CHEF.chckNavigOpened = function() {
-		var is_small_res = ( $( '.visible-xs' ).css( 'display' ) === 'block' ) ? true : false;
+		// var is_small_res = ( $( '.visible-xs' ).css( 'display' ) === 'block' ) ? true : false;
+		var is_small_res = ($(window).width() <= 1040);	
 		var is_mobile_nav_visible = ( $( 'nav#navigation-mobile' ).css( 'display' ) === 'block' ) ? true : false;
 		if( !is_small_res && is_mobile_nav_visible ) {
 			$( 'nav#navigation-mobile' ).css( 'display', 'none' );
