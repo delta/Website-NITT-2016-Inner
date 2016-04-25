@@ -254,7 +254,7 @@ if(!defined('__PRAGYAN_CMS'))
     </div><!-- container + head wrapper end -->
     </header>
 
-<a class="visible-xs toggler" style="left:0;width:24px;">☰</a>
+<a class="visible-xs toggler" style="text-align:right">☰</a>
 <div class="MenuSlider" style="z-index:100; position:absolute;">
 	<div class="sidebarslider" style="border:2px solid #f6f6f6;left:0;background-color:white">
 		<div id="cms-leftcontentslider">
@@ -266,7 +266,7 @@ if(!defined('__PRAGYAN_CMS'))
 	</div>
 </div>
     
-<div class="container-fluid">
+<div class="container-fluid whitespace">
     <div class="row" style="background-color: #f9f9f9;padding-top: 10px;border-top:1px solid #f1f1f1; ">
     <div class="col-md-2 col-lg-2 col-sm-3 hidden-xs sidebar" style="border:2px solid #f6f6f6">
 		
