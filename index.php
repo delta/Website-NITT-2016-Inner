@@ -281,7 +281,8 @@ if(!defined('__PRAGYAN_CMS'))
         
             <div class="col-md-9 col-lg-9 col-sm-8 col-xs-11 contentSide">
 			<div id="cms-content">
-      
+            <h1 id="content-header">
+            </h1>
 				<?php echo $INFOSTRING; ?>
 				<?php echo $WARNINGSTRING;?>
 				<?php echo $ERRORSTRING; ?>
@@ -289,6 +290,9 @@ if(!defined('__PRAGYAN_CMS'))
 				<?php echo $CONTENT; ?>
 				<?php if(isset($WIDGETS[3])) echo $WIDGETS[3]; ?>
 			</div>
+            <script type="text/javascript">
+                $('#content-header').html($('li.currentpage>a').html());
+            </script>
 			<div class="bottomcontentbar"></div>
 		</div>
 		<div class="clearer"></div>
