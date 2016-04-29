@@ -35,6 +35,7 @@ ul.sideMenu > li > a , ul.sideMenu > li > ul > li > a
 {
 	border-bottom: 1px dotted gray;
 }
+
 /*ul.topnav > li > a {
 	height: 32px;
   	voice-family: inherit;
@@ -51,6 +52,8 @@ ul.sideMenu > li > a , ul.sideMenu > li > ul > li a{
 ul.sideMenu > li > ul > li
 {
 	margin:20px;
+	margin-top:0;
+	margin-bottom: 0;
 }
 
 /*div.cms-menuhead{

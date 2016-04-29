@@ -281,8 +281,9 @@ if(!defined('__PRAGYAN_CMS'))
         
             <div class="col-md-9 col-lg-9 col-sm-8 col-xs-11 contentSide">
 			<div id="cms-content">
-            <h1 id="content-header">
+            <h1 id="content-header" style="margin-top:0;">
             </h1>
+            <hr style="color: white;">
 				<?php echo $INFOSTRING; ?>
 				<?php echo $WARNINGSTRING;?>
 				<?php echo $ERRORSTRING; ?>
