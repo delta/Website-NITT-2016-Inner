@@ -31,7 +31,7 @@ ul.sideMenu , ul.sideMenu > li > ul
 	padding-bottom:20px;
 }	
 		
-ul.sideMenu > li > a , ul.sideMenu > li > ul > a
+ul.sideMenu > li > a , ul.sideMenu > li > ul > li > a
 {
 	border-bottom: 1px dotted gray;
 }

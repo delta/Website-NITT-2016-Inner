@@ -80,8 +80,8 @@ if(!defined('__PRAGYAN_CMS'))
         <div class="row"><!-- row -->
             <nav class="k-functional-navig"><!-- functional navig -->
                 <ul class="list-inline pull-right">
-                    <li><a href="#">Departments</a></li>
-                    <li><a href="#">Placements</a></li>
+                    <li><a href="/home/academics/departments/">Departments</a></li>
+                    <li><a href="/students/facilitiesnservices/tp/">Placements</a></li>
                    <li><a id="dash" href="#" title="" class="dash"><i class="fa fa-toggle-off"></i> Dashboard </a></li>
              <script>$('#dash').click(function(){
     $(this).find('i').toggleClass('fa-toggle-off fa-toggle-on');
@@ -89,9 +89,9 @@ if(!defined('__PRAGYAN_CMS'))
 
     
 });</script>
-                    <li><a href="#">Webmail</a></li>
-                    <li><a href="#">Sitemap</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="https://webmail.nitt.edu/">Webmail</a></li>
+                    <li><a href="/sitemap">Sitemap</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="#">Translate</a></li>
                 </ul>
             
@@ -135,13 +135,13 @@ if(!defined('__PRAGYAN_CMS'))
         
                     <ul id="drop-down-left" class="k-dropdown-menu">
                         <li>
-                            <a href="#" title="">Homepage</a>
+                            <a href="/" title="">Homepage</a>
                         </li>
                         <li>
                             <a href="#" title=""><i class="fa fa-caret-down"></i> About</a>
                             <ul class="sub-menu">
-                                <li><a href="#"> Mission & Vision </a></li>
-                                <li><a href="#"> Alumni </a></li>
+                                <li><a href="/home/mv"> Mission & Vision </a></li>
+                                <li><a href="http://recal.nitt.edu/"> Alumni </a></li>
                             </ul>
                         </li>
                         <li>
@@ -170,24 +170,24 @@ if(!defined('__PRAGYAN_CMS'))
                             <a id="d" href="#" title="" class="department"><i class="fa fa-toggle-off"></i> Department</a>
                             <script>$('#d').click(function(){$(this).find('i').toggleClass('fa-toggle-off fa-toggle-on');});</script>
                             <ul class="visible-xs sub-menu">
-                                <li><a href="#">Computer Science & Engineering</a></li>
-                                <li><a href="#">Electrical & Electronics Engineering</a></li>
-                                <li><a href="#">Electronics & Communication Engineering</a></li>
-                                <li><a href="#">Instrumentation & Control Engineering</a></li>
-                                <li><a href="#">Mechanical Engineering</a></li>
-                                <li><a href="#">Civil Engineering</a></li>
-                                <li><a href="#">Chemical Engineering</a></li>
-                                <li><a href="#">Production Engineering</a></li>
-                                <li><a href="#">Metalurgical & Material's Engineering</a></li>
+                                <li><a href="/home/academics/departments/cse/">Computer Science & Engineering</a></li>
+                                <li><a href="/home/academics/departments/eee">Electrical & Electronics Engineering</a></li>
+                                <li><a href="/home/academics/departments/ece">Electronics & Communication Engineering</a></li>
+                                <li><a href="/home/academics/departments/ice">Instrumentation & Control Engineering</a></li>
+                                <li><a href="/home/academics/departments/mech">Mechanical Engineering</a></li>
+                                <li><a href="/home/academics/departments/civil">Civil Engineering</a></li>
+                                <li><a href="/home/academics/departments/chem">Chemical Engineering</a></li>
+                                <li><a href="/home/academics/departments/prod">Production Engineering</a></li>
+                                <li><a href="/home/academics/departments/meta">Metallurgical & Material's Engineering</a></li>
                                 <li>
                                     <a href="#">Others</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Mathematics</a></li>
+                                        <li><a href="/home/academics/departments/maths">Mathematics</a></li>
                                         <li>
-                                            <a href="#">Chemistry</a>
+                                            <a href="/home/academics/departments/chemistry">Chemistry</a>
                                             
                                         </li>
-                                        <li><a href="#">Physics</a></li>
+                                        <li><a href="/home/academics/departments/physics">Physics</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -223,31 +223,31 @@ if(!defined('__PRAGYAN_CMS'))
     <section class="visible-lg">
                 <div class="container dep" style="display:none;">
                     <div class="col-md-2">
-                        <a href="#">Architecture</a><br>
-                        <a href="#">CECASE</a><br>
-                        <a href="#">Chemical Engineering</a><br>
-                        <a href="#">Chemistry</a><br>
+                        <a href="/home/academics/departments/architecture">Architecture</a><br>
+                        <a href="/home/academics/departments/cecase">CECASE</a><br>
+                        <a href="/home/academics/departments/chem">Chemical Engineering</a><br>
+                        <a href="/home/academics/departments/chemistry">Chemistry</a><br>
                 </div>  
                 <div class="col-md-3">
-                    <a href="#">Civil Engineering</a><br>
-                        <a href="#">Computer Applications</a><br>
-                        <a href="#">Computer Science & Engineering</a><br>
-                        <a href="#">DEE</a><br>
+                    <a href="/home/academics/departments/civil">Civil Engineering</a><br>
+                        <a href="/home/academics/departments/ca">Computer Applications</a><br>
+                        <a href="/home/academics/departments/cse">Computer Science & Engineering</a><br>
+                        <a href="/home/academics/departments/dee">DEE</a><br>
                 </div>
                 <div class="col-md-4">
-                    <a href="#">Electrical & Electronics Engineering</a><br>
-                        <a href="#">Electronics & Communications Engineering</a><br>
-                        <a href="#">Humanities</a><br>
-                        <a href="#">Instrumentation & Control Engineering</a><br>
-                        <a href="#">Management Studies</a><br>
+                    <a href="/home/academics/departments/eee">Electrical & Electronics Engineering</a><br>
+                        <a href="/home/academics/departments/ece">Electronics & Communications Engineering</a><br>
+                        <a href="/home/academics/departments/humanities">Humanities</a><br>
+                        <a href="/home/academics/departments/ice">Instrumentation & Control Engineering</a><br>
+                        <a href="/home/academics/departments/management">Management Studies</a><br>
                 </div>
                 <div class="col-md-3">
                     
-                        <a href="#">Mathematics</a><br>
-                        <a href="#">Mechanical Engineering</a><br>
-                        <a href="#">Metalurgical & Materials Engineering</a><br>
-                        <a href="#">Production Engineering</a><br>
-                        <a href="#">Physics</a><br>
+                        <a href="/home/academics/departments/maths">Mathematics</a><br>
+                        <a href="#/home/academics/departments/mech">Mechanical Engineering</a><br>
+                        <a href="/home/academics/departments/meta">Metalurgical & Materials Engineering</a><br>
+                        <a href="/home/academics/departments/prod">Production Engineering</a><br>
+                        <a href="/home/academics/departments/physics">Physics</a><br>
                         
                 </div>
             </section>
@@ -350,7 +350,7 @@ if(!defined('__PRAGYAN_CMS'))
                             <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Tenders & Notices</a></li>
                             <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Job Opportunities</a></li>
                             <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> RTI</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Recal-Alumini</a></li>
+                            <li><a href="recal.nitt.edu" class="footerlinks"><i class="fa fa-caret-right"></i> Recal-Alumini</a></li>
                             <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> SiteMap</a></li>
                             
                         </ul>
