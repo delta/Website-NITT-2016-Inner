@@ -33,7 +33,7 @@ ul.sideMenu , ul.sideMenu > li > ul
 		
 ul.sideMenu > li > a , ul.sideMenu > li > ul > a
 {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px dotted gray;
 }
 /*ul.topnav > li > a {
 	height: 32px;
