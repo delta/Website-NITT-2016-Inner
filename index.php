@@ -283,7 +283,7 @@ if(!defined('__PRAGYAN_CMS'))
 			<div id="cms-content">
             <h1 id="content-header" style="margin-top:0;">
             </h1>
-            <hr style="color: white;">
+            <hr style="color: gray;">
 				<?php echo $INFOSTRING; ?>
 				<?php echo $WARNINGSTRING;?>
 				<?php echo $ERRORSTRING; ?>
