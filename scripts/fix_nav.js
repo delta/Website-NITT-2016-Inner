@@ -27,4 +27,8 @@ $(document).scroll(function scroll_fix_nav	() {
 // else {
 // 	$(".k-main-navig").css("visibility", "hidden");
 // }
+
+if($('#menubar > ul').attr('class')!='sideMenu')
+$('#menubar > ul').attr('class' , 'sideMenu');
+
 });
