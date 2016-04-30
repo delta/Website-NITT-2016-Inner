@@ -450,5 +450,12 @@ body {
     text-decoration: none;
 }
 #facindex p {
-    padding: 0 1em .5em .65em;
+    /*padding: 0 1em .5em .65em;*/
+}
+#cms-content > #facindex > h2 {
+    clear: both;
+}
+#cms-content > #facindex > .facitem > p {
+    font-size: 0.9em;
+    line-height: 1.4;
 }
