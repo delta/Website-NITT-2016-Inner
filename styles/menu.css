@@ -2,16 +2,26 @@
 {
 	margin:10px;
 }
-.menucontainer > div > ul
+.menucontainer> div > ul.sideMenu
 {
-	min-height: 63vh;
-    max-height: 63vh;
-	overflow: auto;	
+	min-height: 55vh;
+    max-height: 55vh;
+	overflow: auto;
 }
 .menucontainer > div > h2
 {
-	min-height: 7vh;
-    max-height: 7vh;
+	min-height: 15vh;
+    max-height: 15vh;
+}
+.menucontainer > div > h2 > a
+{
+	font-size: 16px;
+    color: #FFFFFF;
+    background-color: #424242;
+    border: 1px solid #868686;
+    opacity: 0.8;
+    padding: 2px;
+    font-weight: 500;
 }
 ul.sideMenu , ul.sideMenu > li > ul
 {

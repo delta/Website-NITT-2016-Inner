@@ -266,11 +266,6 @@ if(!defined('__PRAGYAN_CMS'))
 	</div>
 </div>
 
-<!--For background image in sliding menu-->
-<script type="text/javascript">
-$('.sidebarslider').children().children().children().children().eq(0).css('background-image','url(<?php echo $TEMPLATEBROWSERPATH; ?>/image/NIT-Trichy.jpg)');
-</script>
-
 <div class="container-fluid whitespace">
     <div class="row" style="background-color: #f9f9f9;padding-top: 10px;border-top:1px solid #f1f1f1; ">
     <div class="col-md-2 col-lg-2 col-sm-3 hidden-xs sidebar" style="border:2px solid #f6f6f6">
@@ -424,6 +419,12 @@ $('.sidebarslider').children().children().children().children().eq(0).css('backg
             });
         
     </script>
+	
+	<!--For background image in sliding menu-->
+	<script type="text/javascript">
+		$('.sidebarslider').children().children().children().children().eq(0).css('background-image','url(<?php echo $TEMPLATEBROWSERPATH; ?>/image/NIT-Trichy.jpg)');
+		$('.sidebar').children().children().children().children().eq(0).css('background-image','url(<?php echo $TEMPLATEBROWSERPATH; ?>/image/NIT-Trichy.jpg)');
+	</script>
     
     <!-- Theme -->
     
