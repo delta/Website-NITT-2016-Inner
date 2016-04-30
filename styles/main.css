@@ -431,3 +431,24 @@ body {
     background: #e4e4e4;
     border-radius: 20px;
 }
+#facindex h1 {
+    color: teal;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5pt 0 0 5px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+    clear: none;
+}
+#facindex img {
+    float: left;
+}
+#facindex a {
+    color: #000;
+    text-decoration: none;
+}
+#facindex p {
+    padding: 0 1em .5em .65em;
+}
