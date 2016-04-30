@@ -268,7 +268,7 @@ if(!defined('__PRAGYAN_CMS'))
 
 <!--For background image in sliding menu-->
 <script type="text/javascript">
-$('.sidebarslider').children().children().children().children().eq(0).css('background-image','url(<?php echo $TEMPLATEBROWSERPATH; ?>/image/NIT-Trichy.png)');
+$('.sidebarslider').children().children().children().children().eq(0).css('background-image','url(<?php echo $TEMPLATEBROWSERPATH; ?>/image/NIT-Trichy.jpg)');
 </script>
 
 <div class="container-fluid whitespace">
