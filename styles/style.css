@@ -765,3 +765,43 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { backgroun
     }
 }
 /* == END media queries == */
+/* == Scrollbar CSS == */
+.sideMenu::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+
+.sideMenu::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: rgba(120,120,120,1)
+}
+
+.sideMenu::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #999;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: rgba(120,120,120,1)
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #999;
+}
+/* == END Scrollbar CSS == */
