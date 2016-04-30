@@ -295,7 +295,7 @@ if(!defined('__PRAGYAN_CMS'))
 				<?php if(isset($WIDGETS[3])) echo $WIDGETS[3]; ?>
 			</div>
             <script type="text/javascript">
-             $('#currpage').html('Current page → '+$('li.currentpage>a').html());
+             $('#currpage').html($('li.currentpage>a').html());
             </script>
 			<div class="bottomcontentbar"></div>
 		</div>
