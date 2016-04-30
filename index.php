@@ -283,7 +283,7 @@ if(!defined('__PRAGYAN_CMS'))
 			<div id="cms-content">
             <!-- <span id="currpage" style="font-weight:50; -->
             <!-- font-size:small;"></span> -->
-            <h2 id="currpage">
+            <h2 id="currpage" style="margin-top: 0;font-weight: bold;">
                 
             </h2>
             <hr style="background-color: #BDBBBB;height: 1px;margin-bottom:20px;">
