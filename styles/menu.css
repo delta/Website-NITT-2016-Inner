@@ -1,22 +1,17 @@
-/*ul.topnav {
-	width: 100%;
-	margin: 10px;
-	border-style: solid solid none solid;
-	border-color: #D8D5D1;
-	border-size: 1px;
-	border-width: 1px;
-	list-style:none outside none;
-	margin:0;
-	padding:0;
-	
-	}*/
-
 .sidebar
 {
 	margin:10px;
-	min-height: 70vh !important;
-    max-height: 70vh;
-    overflow-y: scroll;
+}
+.menucontainer > div > ul
+{
+	min-height: 63vh;
+    max-height: 63vh;
+	overflow: auto;	
+}
+.menucontainer > div > h2
+{
+	min-height: 7vh;
+    max-height: 7vh;
 }
 ul.sideMenu , ul.sideMenu > li > ul
 {
@@ -37,12 +32,6 @@ ul.sideMenu > li > a , ul.sideMenu > li > ul > li > a
 	font-size: 14px;
 }
 
-/*ul.topnav > li > a {
-	height: 32px;
-  	voice-family: inherit;
-  	height: 24px;
-	text-decoration: none;
-	}*/
 
 ul.sideMenu > li > a , ul.sideMenu > li > ul > li a{
 	height: 32px;
@@ -56,20 +45,6 @@ ul.sideMenu > li > ul > li
 	margin-top:0;
 	margin-bottom: 0;
 }
-
-/*div.cms-menuhead{
-	font-weight:bold;
-	text-transform:uppercase;
-	color:#787878;
-	border-left: 5px #787878 solid;
-	border-right: 5px #787878 solid;
-	background-color : #cdcdcd;
-	text-align : center;
-	padding:3px 3px 3px 6px;
-	font-size:14px;
-
-	font-family:"trebuchet ms", helvetica;
-}*/
 
 div#menubar > h2{
 	font-weight:bold;
@@ -90,12 +65,65 @@ div#menubar > h2{
 	height:16px;
 }
 
-/*ul.topnav > li > a:link, ul.topnav > li > a:visited {
+
+/*ul.topnav > li > a 
+{
+	height: 32px;
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+}
+
+div.cms-menuhead
+{
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#787878;
+	border-left: 5px #787878 solid;
+	border-right: 5px #787878 solid;
+	background-color : #cdcdcd;
+	text-align : center;
+	padding:3px 3px 3px 6px;
+	font-size:14px;
+
+	font-family:"trebuchet ms", helvetica;
+}
+
+ul.topnav > li > a:link, ul.topnav > li > a:visited 
+{
 	color: #3688BA;
 	display: block;
 	
 	padding: 8px 0 0 30px;
-	}*/
+}
+
+ul.topnav > li > a
+{
+	height: auto;
+}
+
+ul.topnav > li > a:hover 
+{
+	color: #3688BA;
+	background:  url(../images/menu.gif) 0 0;
+	border:none;	
+	padding: 8px 0 0 30px;
+}
+ul.topnav 
+{
+	width: 100%;
+	margin: 10px;
+	border-style: solid solid none solid;
+	border-color: #D8D5D1;
+	border-size: 1px;
+	border-width: 1px;
+	list-style:none outside none;
+	margin:0;
+	padding:0;
+	
+}
+
+*/
 
 ul.sideMenu > li > a:link, ul.sideMenu> li > a:visited  , ul.sideMenu > li > ul >li > a:link, ul.sideMenu> li >ul >li > a:visited{
 	color: #000000;
@@ -104,22 +132,10 @@ ul.sideMenu > li > a:link, ul.sideMenu> li > a:visited  , ul.sideMenu > li > ul 
 	padding: 8px 4px 10px 10px;
 	}
 
-/*ul.topnav > li > a{
-height: auto;
-}
-*/
 
 ul.sideMenu > li > a , ul.sideMenu > li > ul > li > a{
 height: auto;
 }
-
-/*ul.topnav > li > a:hover {
-	color: #3688BA;
-	background:  url(../images/menu.gif) 0 0;
-	border:none;	
-	padding: 8px 0 0 30px;
-	}
-*/
 
 ul.sideMenu > li > a:hover , ul.sideMenu  > li > ul > li > a:hover {
 	color:#F99393;
@@ -151,4 +167,48 @@ ul.subnav > li:hover {
 
 ul.subnav > li > a {
 	color: #3688BA;
+}
+
+/*** Sliding menu ***/
+
+.toggler
+{
+	text-align:right !important;
+}
+.MenuSlider
+{
+	z-index:100; 
+	position:absolute;
+	top:0;
+}
+.sidebarslider
+{
+	border:2px solid #f6f6f6;
+	left:0;
+	background-color:white;
+}
+.menucontainerslider > div > h2 > a
+{
+	font-size:20px;
+	color: #FFFFFF;
+    background-color: #424242;
+    border: 1px solid #868686;
+    opacity: 0.6;
+    padding: 2px;
+    font-weight: 500;
+}
+.menucontainerslider > div > h2
+{
+	bbackground-image:url(NIT-Trichy.jpg);
+	background-size:cover;
+}
+.menucontainerslider > div > ul.sideMenu
+{
+	background-color:black;
+}
+.menucontainerslider > div > ul.sideMenu > li > a:link, .menucontainerslider > div > ul.sideMenu> li > a:visited, .menucontainerslider > div > ul.sideMenu > li > ul >li > a:link, .menucontainerslider > div > ul.sideMenu> li >ul >li > a:visited
+{
+	color: #847E7E !important;
+	display: block !important;
+	padding: 8px 4px 10px 10px !important;
 }
