@@ -281,8 +281,8 @@ if(!defined('__PRAGYAN_CMS'))
         
             <div class="col-md-9 col-lg-9 col-sm-8 col-xs-11 contentSide">
 			<div id="cms-content">
-            <span id="currpage" style="font-weight:50;
-            font-size:small;"></span>
+            <!-- <span id="currpage" style="font-weight:50; -->
+            <!-- font-size:small;"></span> -->
             <hr style="background-color: #BDBBBB;height: 1px;margin-bottom:20px;">
 				<?php echo $INFOSTRING; ?>
 				<?php echo $WARNINGSTRING;?>
@@ -292,7 +292,7 @@ if(!defined('__PRAGYAN_CMS'))
 				<?php if(isset($WIDGETS[3])) echo $WIDGETS[3]; ?>
 			</div>
             <script type="text/javascript">
-                $('#currpage').html('Current page → '+$('li.currentpage>a').html());
+                // $('#currpage').html('Current page → '+$('li.currentpage>a').html());
             </script>
 			<div class="bottomcontentbar"></div>
 		</div>
