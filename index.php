@@ -281,7 +281,7 @@ if(!defined('__PRAGYAN_CMS'))
         
             <div class="col-md-9 col-lg-9 col-sm-8 col-xs-11 contentSide">
 			<div id="cms-content">
-            <h1 id="content-header" style="margin-top:0;">
+            <h1 id="content-header" style="margin-top:0;text-align:center;margin-bottom:0;font-weight:500;">
             </h1>
             <hr style="color: gray;background-color: #BDBBBB;height: 4px;border-radius: 3px;">
 				<?php echo $INFOSTRING; ?>

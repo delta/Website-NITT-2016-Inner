@@ -23,7 +23,7 @@ a.moretag { font-size: 12px; text-transform: uppercase; }
 /* == END font and links == */
 
 /* == titles, titles custom == */
-h1, h2, h3, h4, h5, h6 { font-weight: 700; color: #636363; }
+h1, h2, h3, h4, h5, h6 { font-weight: 400; color: #636363; }
 h1, h2, h3 { margin: 40px 0 20px;}
 h4, h5, h6 { margin: 40px 0 10px;}
 h1 { font-size: 28px; line-height: 36px; }
