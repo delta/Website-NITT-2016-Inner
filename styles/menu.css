@@ -12,9 +12,12 @@
 {
 	min-height: 15vh;
     max-height: 15vh;
+	background-size:cover;
+	overflow:hidden;
 }
 .menucontainer > div > h2 > a
 {
+	font-family: 'Open Sans', 'Myriad Pro', 'Helvetica', sans-serif;
 	font-size: 16px;
     color: #FFFFFF;
     background-color: #424242;
@@ -199,17 +202,19 @@ ul.subnav > li > a {
 }
 .menucontainerslider > div > h2 > a
 {
-	font-size:20px;
+	font-family: 'Open Sans', 'Myriad Pro', 'Helvetica', sans-serif;
+	font-size:16px;
 	color: #FFFFFF;
     background-color: #424242;
     border: 1px solid #868686;
-    opacity: 0.6;
+    opacity: 0.8;
     padding: 2px;
     font-weight: 500;
 }
 .menucontainerslider > div > h2
 {
 	background-size:cover;
+	overflow:hidden;
 }
 .menucontainerslider > div > ul.sideMenu
 {
