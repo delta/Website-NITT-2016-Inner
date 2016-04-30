@@ -395,3 +395,39 @@ body {
 	margin:10px;
 	min-height: 70vh !important;
 }
+.facitem {
+    color: #111;
+    font-size: 80%;
+    text-align: left;
+    width: 40%;
+    background: #efefef;
+    border-radius:20px;
+    padding: 2%;
+    margin: 2%;
+}
+
+.left_{
+    float: left;
+    margin-left: 1%;
+}
+.facitem img{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    padding: 0px;
+    margin:20px;
+    margin-top: 0px;
+    border: 2px solid rgba(200,200,200,0.5) ;
+    box-shadow: 1px 1px 5px 1px rgba(200,200,200,1);
+}
+.right_{
+    float: right;
+    margin-right: 1%;
+}
+.half {
+    position: relative;
+}
+.facitem:hover {
+    background: #e4e4e4;
+    border-radius: 20px;
+}
