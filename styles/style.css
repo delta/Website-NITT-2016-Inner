@@ -813,7 +813,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { backgroun
 
 #menubar::-webkit-scrollbar
 {
-	width: 12px;
+	width: 6px;
 	background-color: rgba(120,120,120,1)
 }
 
