@@ -99,13 +99,13 @@ function googleTranslateElementInit() {
                     <li><a href="/sitemap">Sitemap</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
-                <div id=google_translate_element></div>
-            
+
                 
                 
 
             </nav><!-- functional navig end -->
-        
+            <div id=google_translate_element style="float:left;top:0px;">Translate </div>
+
             <div class="col-lg-12" >
             <div class="container-fluid text-center dashboard"  hidden >
                            <?php echo $ACTIONBARPAGE;?>
