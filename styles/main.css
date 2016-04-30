@@ -461,5 +461,5 @@ body {
 }
 .goog-te-gadget-icon
 {
-    visibility: none;
+    display: none;
 }
