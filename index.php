@@ -98,8 +98,8 @@ function googleTranslateElementInit() {
                     <li><a href="https://webmail.nitt.edu/">Webmail</a></li>
                     <li><a href="/sitemap">Sitemap</a></li>
                     <li><a href="/contact">Contact</a></li>
-                    <li><a href="#">Translate</a></li>
                 </ul>
+                <div id=google_translate_element></div>
             
                 
                 
