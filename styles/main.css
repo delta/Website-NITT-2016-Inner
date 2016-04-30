@@ -397,7 +397,6 @@ body {
 }
 .facitem {
     color: #111;
-    cursor: pointer;
     font-size: 80%;
     text-align: left;
     width: 40%;
