@@ -33,7 +33,8 @@ ul.sideMenu , ul.sideMenu > li > ul
 		
 ul.sideMenu > li > a , ul.sideMenu > li > ul > li > a
 {
-	border-bottom: 1px dotted gray;
+	border-bottom: 1px solid gray;
+	font-size: 14px;
 }
 
 /*ul.topnav > li > a {
