@@ -459,3 +459,7 @@ body {
     font-size: 0.9em;
     line-height: 1.4;
 }
+.goog-te-gadget-icon
+{
+    visibility: none;
+}

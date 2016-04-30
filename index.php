@@ -87,6 +87,7 @@ function googleTranslateElementInit() {
             <nav class="k-functional-navig"><!-- functional navig -->
                 <ul class="list-inline pull-right">
                     <li><a href="/home/academics/departments/">Departments</a></li>
+                    <li><div id=google_translate_element></div></li>
                     <li><a href="/students/facilitiesnservices/tp/">Placements</a></li>
                    <li><a id="dash" href="#" title="" class="dash"><i class="fa fa-toggle-off"></i> Dashboard </a></li>
              <script>$('#dash').click(function(){
@@ -104,8 +105,7 @@ function googleTranslateElementInit() {
                 
 
             </nav><!-- functional navig end -->
-            <div id=google_translate_element style="float:left;top:0px;">Translate </div>
-
+            
             <div class="col-lg-12" >
             <div class="container-fluid text-center dashboard"  hidden >
                            <?php echo $ACTIONBARPAGE;?>
