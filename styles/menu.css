@@ -33,7 +33,7 @@ ul.sideMenu , ul.sideMenu > li > ul
 		
 ul.sideMenu > li > a , ul.sideMenu > li > ul > li > a
 {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #D6D5D5;
 	font-size: 14px;
 }
 
