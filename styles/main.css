@@ -406,7 +406,7 @@ body {
     margin: 2%;
 }
 
-.left_{
+.left{
     float: left;
     margin-left: 1%;
 }
@@ -420,7 +420,7 @@ body {
     border: 2px solid rgba(200,200,200,0.5) ;
     box-shadow: 1px 1px 5px 1px rgba(200,200,200,1);
 }
-.right_{
+.right{
     float: right;
     margin-right: 1%;
 }
