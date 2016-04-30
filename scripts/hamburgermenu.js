@@ -14,11 +14,14 @@
 		$('.sidebarslider').children().children().children().children().eq(0).css('height',(3/10)*$(window).width());
 		
 		var sidemenu=$('.sidebarslider').children().children().children().children().eq(1);
+		var heading=$('.sidebarslider').children().children().children().children().eq(0);
 		$('.sidebarslider').children().children().children().css('max-height',$(window).height());
 		$('.sidebarslider').children().children().children().css('min-height',$(window).height());
 		$('.sidebarslider').children().children().children().css('overflow-y','scroll');
 		sidemenu.css('max-width',(3/4)*$(window).width());
 		sidemenu.css('min-width',(3/4)*$(window).width());
+		heading.css('max-width',(3/4)*$(window).width());
+		heading.css('min-width',(3/4)*$(window).width());
 		sidemenu.css('overflow-x','scroll');
 		$(".toggler").on("click", function toggleSidebar()
 		{
