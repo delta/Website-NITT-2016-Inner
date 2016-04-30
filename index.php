@@ -53,6 +53,12 @@ if(!defined('__PRAGYAN_CMS'))
         var urlRequestRoot = "<?php echo $urlRequestRoot?>";
     </script>
    
+   <script type=text/javascript src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   <script type=text/javascript>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
     <script language="javascript" type="text/javascript" src="<?php echo  $TEMPLATEBROWSERPATH; ?>/scripts/jquery-latest.js" ></script>
     <script type="text/javascript" src="<?php echo  $TEMPLATEBROWSERPATH; ?>/scripts/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="<?php echo $TEMPLATEBROWSERPATH; ?>/scripts/script.js"></script>
@@ -81,6 +87,7 @@ if(!defined('__PRAGYAN_CMS'))
             <nav class="k-functional-navig"><!-- functional navig -->
                 <ul class="list-inline pull-right">
                     <li><a href="/home/academics/departments/">Departments</a></li>
+                    <li><div id=google_translate_element></div></li>
                     <li><a href="/students/facilitiesnservices/tp/">Placements</a></li>
                    <li><a id="dash" href="#" title="" class="dash"><i class="fa fa-toggle-off"></i> Dashboard </a></li>
              <script>$('#dash').click(function(){
@@ -92,14 +99,13 @@ if(!defined('__PRAGYAN_CMS'))
                     <li><a href="https://webmail.nitt.edu/">Webmail</a></li>
                     <li><a href="/sitemap">Sitemap</a></li>
                     <li><a href="/contact">Contact</a></li>
-                    <li><a href="#">Translate</a></li>
                 </ul>
-            
+
                 
                 
 
             </nav><!-- functional navig end -->
-        
+            
             <div class="col-lg-12" >
             <div class="container-fluid text-center dashboard"  hidden >
                            <?php echo $ACTIONBARPAGE;?>
