@@ -53,6 +53,12 @@ if(!defined('__PRAGYAN_CMS'))
         var urlRequestRoot = "<?php echo $urlRequestRoot?>";
     </script>
    
+   <script type=text/javascript src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   <script type=text/javascript>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
     <script language="javascript" type="text/javascript" src="<?php echo  $TEMPLATEBROWSERPATH; ?>/scripts/jquery-latest.js" ></script>
     <script type="text/javascript" src="<?php echo  $TEMPLATEBROWSERPATH; ?>/scripts/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="<?php echo $TEMPLATEBROWSERPATH; ?>/scripts/script.js"></script>
