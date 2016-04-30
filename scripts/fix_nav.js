@@ -31,4 +31,7 @@ $(document).scroll(function scroll_fix_nav	() {
 if($('#menubar > ul').attr('class')!='sideMenu')
 $('#menubar > ul').attr('class' , 'sideMenu');
 
+if($('.goog-te-menu-value'))
+$('.goog-te-menu-value > span').html('Translate');
+
 });
