@@ -21,3 +21,9 @@ p , table
 span.text {
     color: #cc0033;
 }
+a#mobile-nav-switch
+{
+	position: absolute;
+   	left: 0px;
+   	z-index: 0;
+}
