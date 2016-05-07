@@ -16,7 +16,7 @@ if(!defined('__PRAGYAN_CMS'))
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="shortcut icon" href="<?php echo $TEMPLATEBROWSERPATH; ?>/images/logo_16.png" >
+	<link rel="shortcut icon" href="<?php echo $TEMPLATEBROWSERPATH; ?>/image/logo.png" >
 	<link rel="stylesheet" type="text/css" href="<?php echo $TEMPLATEBROWSERPATH; ?>/styles/main.css" />
     <meta name="description" content="<?php echo $SITEDESCRIPTION ?>" />
     <meta name="keywords" content="<?php echo $SITEKEYWORDS.', '.$PAGEKEYWORDS ?>" /> 
