@@ -21,30 +21,3 @@ p , table
 span.text {
     color: #cc0033;
 }
-.cms-error
-{
-	padding:20px;
-	color:black;
-}
-
-input[type=button]
-{
-	margin-top:2%;
-	margin-left:5%;
-}
-table
-{
-        color: black;
-}
-textarea
-{
-	color:black;
-}
-td
-{
-	padding:3%;
-}
-form
-{
-	margin-left:10px;
-}
