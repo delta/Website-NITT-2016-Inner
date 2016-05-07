@@ -10,3 +10,11 @@
 .lgrey-col{
 	background:rgba(0,0,0,0.02);
 }
+p , table
+{
+	color:black;
+}
+.navbar-fixed-top
+{
+	box-shadow: 1px 5px 5px 0px;
+}
