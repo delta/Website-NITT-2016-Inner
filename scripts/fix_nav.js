@@ -40,7 +40,7 @@ $('#menubar > ul').attr('class' , 'sideMenu');
 if($('.goog-te-menu-value'))
 $('.goog-te-menu-value > span').html('Translate');
 
-%(window).resize(function(){
+$(window).resize(function(){
   win_height = $(window).innerHeight();
 if(win_height<768)
 {
