@@ -32,7 +32,11 @@ if(win_height<768)
 {
   $('.facitem').css('width','300px')
 }
-else $('.facitem').css('height','200px');
+else
+{
+   $('.facitem').css('width','40%');
+   $('.facitem').css('height','200px');
+}
 
 if($('#menubar > ul').attr('class')!='sideMenu')
 $('#menubar > ul').attr('class' , 'sideMenu');
@@ -46,7 +50,11 @@ if(win_height<768)
 {
   $('.facitem').css('width','300px')
 }
-else $('.facitem').css('height','200px');
+else
+{ 
+  $('.facitem').css('width','40%');
+  $('.facitem').css('height','200px');
+}
 });
 
 });
