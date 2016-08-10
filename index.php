@@ -80,14 +80,13 @@ function googleTranslateElementInit() {
     <!-- device test, don't remove. javascript needed! -->
     <!-- <span class="visible-xs" style="padding-bottom:5px;background-color:#cc0033;" ></span><span class="visible-sm"></span><span class="visible-md"></span><span class="visible-lg" style="padding-bottom:5px;background-color:#cc0033;"></span> -->
     <!-- device test end -->
-    <hr style="height:2px;background-color:#cc0033;">
     <div id="k-head" class="container-fluid"><!-- container + head wrapper -->
     
         <div class="row"><!-- row -->
             <nav class="k-functional-navig"><!-- functional navig -->
                 <ul class="list-inline pull-right">
-                    <li><a href="/home/academics/departments/">Departments</a></li>
                     <li><div id=google_translate_element></div></li>
+					<li><a href="/home/academics/departments/">Departments</a></li>
                     <li><a href="/students/facilitiesnservices/tp/">Placements</a></li>
                    <li><a id="dash" href="#" title="" class="dash"><i class="fa fa-toggle-off"></i> Dashboard </a></li>
              <script>$('#dash').click(function(){
@@ -376,7 +375,7 @@ function googleTranslateElementInit() {
             	<div class="col-lg-12">
                 
                 	<p class="copy-text text-inverse">
-                 <small class="copyright col-md-12o col-sm-12 col-xs-12 text-center">Copyright @ 2015 National Institute of Technology | Made with &#10084; by Delta Force</small>
+                 <small class="copyright col-md-12 col-sm-12 col-xs-12 text-center">Copyright @ 2015 National Institute of Technology | Made with &#10084; by <a href="http://testing.nitt.edu/home/webteam"> Web-Team, NIT Trichy</a></small>
                     </p>
                 
                 </div>
