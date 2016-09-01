@@ -9,7 +9,6 @@
 		var $content = $(".contentSide");
 		//var mh=$page.height()+$footer.height()+$header.height();
 		var mh=$("body").outerHeight();
-		console.log("Width"+(3/4)*$(window).width());
 		
 		var sidemenu=$('.sidebarslider').children().children().children().children().eq(1);
 		var heading=$('.sidebarslider').children().children().children().children().eq(0);
@@ -18,9 +17,6 @@
 		$('.sidebarslider').children().children().children().children().eq(0).css('height',(3/10)*$(window).width());
 		$('.sidebar').children().children().children().children().eq(1).css('max-height',$content.height()-headingstatic.height());
 		
-		console.log($content.height());
-		console.log(headingstatic.height());
-		console.log($('.sidebar').children().children().children().children().eq(1).height());
 		
 		$('.sidebarslider').children().children().children().css('max-height',$(window).height());
 		$('.sidebarslider').children().children().children().css('min-height',$(window).height());

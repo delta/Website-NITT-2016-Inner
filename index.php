@@ -76,7 +76,7 @@ function googleTranslateElementInit() {
 <body onload="<?php echo $STARTSCRIPTS; ?>" >
 
 <header class="myheader" >
-	<img src="<?php echo $TEMPLATEBROWSERPATH; ?>/image/header.png" style="padding:10px 0px 10px 0px;" />
+	<img id="headerimg" src="<?php echo $TEMPLATEBROWSERPATH; ?>/image/header.png" style="padding:10px 0px 10px 0px;" />
     <!-- device test, don't remove. javascript needed! -->
     <!-- <span class="visible-xs" style="padding-bottom:5px;background-color:#cc0033;" ></span><span class="visible-sm"></span><span class="visible-md"></span><span class="visible-lg" style="padding-bottom:5px;background-color:#cc0033;"></span> -->
     <!-- device test end -->
@@ -85,16 +85,21 @@ function googleTranslateElementInit() {
         <div class="row"><!-- row -->
             <nav class="k-functional-navig"><!-- functional navig -->
                 <ul class="list-inline pull-right">
-                    <li><div id=google_translate_element></div></li>
+                    <li><div id="google_translate_element"></div></li>
 					<li><a href="/home/academics/departments/">Departments</a></li>
                     <li><a href="/students/facilitiesnservices/tp/">Placements</a></li>
-                   <li><a id="dash" href="#" title="" class="dash"><i class="fa fa-toggle-off"></i> Dashboard </a></li>
-             <script>$('#dash').click(function(){
-    $(this).find('i').toggleClass('fa-toggle-off fa-toggle-on');
-        $('.dashboard').toggle('fast');
-
-    
-});</script>
+					<li><a id="dash" href="#" title="" class="dash"><i class="fa fa-toggle-off"></i> Dashboard </a></li>
+					<script>
+						$('#dash').click(function()
+						{
+							$(this).find('i').toggleClass('fa-toggle-off fa-toggle-on');
+							$('.dashboard').toggle('fast');
+						});
+						if($(window).width() < 1040)
+						{
+							$(".myheader").children("#headerimg").attr("src", "<?php echo $TEMPLATEBROWSERPATH; ?>/image/mobile_header.png");
+						}
+					</script>
                     <li><a href="https://webmail.nitt.edu/">Webmail</a></li>
                     <li><a href="/sitemap">Sitemap</a></li>
                     <li><a href="/contact">Contact</a></li>
@@ -143,32 +148,32 @@ function googleTranslateElementInit() {
                             <a href="/" title="">Homepage</a>
                         </li>
                         <li>
-                            <a href="#" title=""><i class="fa fa-caret-down"></i> About</a>
+                            <a href="/home/about/" title=""><i class="fa fa-caret-down"></i> About</a>
                             <ul class="sub-menu">
-                                <li><a href="/home/mv"> Mission & Vision </a></li>
+                                <li><a href="#"> Mission & Vision </a></li>
                                 <li><a href="http://recal.nitt.edu/"> Alumni </a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#" title=""><i class="fa fa-caret-down"></i> Student Links</a>
-                            <ul class="sub-menu">
-                                <li><a href="#">Forms & Downloads </a></li>
-                                <li><a href="#">Scholarships </a></li>
-                                <li><a href="#">Semester Results</a></li>
-                                <li><a href="#">Time Table</a></li>
-                                <li><a href="#">Clubs</a></li>
-                                <li><a href="#">Sports</a></li>
-                                <li><a href="#">Portals</a></li>
-                                <li><a href="#">Important Contacts</a></li>
+						<li>
+                            <a href="/home/students/" title=""><i class="fa fa-caret-down"></i> Student Links</a>
+							<ul class="sub-menu">
+                                <li><a href="/home/academics/formats/">Forms &amp;Downloads </a></li>
+                                <li><a href="/home/academics/scholarships/">Scholarships </a></li>
+                                <li><a href="/prm/showresult.htm">Semester Results</a></li>
+                                <li><a href="/home/academics/Time%20Table">Time Table</a></li>
+								<li><a href="/home/students/clubsnassocs/">Clubs</a></li>
+                                <li><a href="/home/students/clubsnassocs/sports">Sports</a></li>
+                                <li><a href="/home/intranet/">Portals</a></li>
+                                <li><a href="/home/students/facilitiesnservices/ComputerSupportGroup/contact%20address/">Contact</a></li>
                             </ul>
                         </li>
                         <li>
-                           <a href="#" title=""><i class="fa fa-caret-down"></i> Admissions</a>
-                           <ul class="sub-menu">
-                                <li><a href="#">B.Tech. </a></li>
-                                <li><a href="#">M.Tech. </a></li>
-                                <li><a href="#">Ph.D.</a></li>
-                                <li><a href="#">MCA</a></li>
+                           <a  href="/home/admissions/" title=""><i class="fa fa-caret-down"></i> Admissions</a>
+						   <ul class="sub-menu">
+                                <li><a href="/home/admissions/btech/">B.Tech. </a></li>
+                                <li><a href="/home/admissions/mtech/">M.Tech. </a></li>   
+                                <li><a href="/home/admissions/phd/">Ph.D.</a></li>
+                                <li><a href="/home/admissions/mca/">MCA</a></li>
                             </ul>
                         </li>
                         <li>
@@ -200,7 +205,7 @@ function googleTranslateElementInit() {
                         <li>
                             <a href="#" title=""><i class="fa fa-caret-down"></i> Initiatives</a>
                             <ul class="sub-menu">
-                                <li><a href="#">CEDI </a></li>
+                                <li><a href="/home/other/cedi/">CEDI </a></li>
                                 <li><a href="#">Startup Weekend</a></li>
                                 <li><a href="#">Internet Of Things</a></li>
                                 <li><a href="#">Innovation Center</a></li>
@@ -208,13 +213,13 @@ function googleTranslateElementInit() {
                             </ul>
                         </li>
                         <li>
-                            <a href="#" title=""><i class="fa fa-caret-down"></i> Industry</a>
-                            <ul class="sub-menu">
-                                <li><a href="#">Placements at NITT </a></li>
-                                <li><a href="#">Scholarships </a></li>
-                                <li><a href="#">Consultancy & Research</a></li>
-                                <li><a href="#">MoU's signed</a></li>
-                                <li><a href="#">Tender Invitations</a></li>
+                            <a href="/home/icsr/iii" title=""><i class="fa fa-caret-down"></i> Industry</a>
+							<ul class="sub-menu">
+                                <li><a href="/home/students/facilitiesnservices/tp/">Placements at NITT </a></li>
+                                <li><a href="/home/academics/scholarships/">Scholarships </a></li>
+                                <li><a href="/home/rc">Consultancy &amp; Research</a></li>
+                                <li><a href="/home/academics/mou">MoU &lsquo;s signed</a></li>
+								<li><a href="/other/tenders">Tender Invitations</a></li>
                                 <li><a href="#">Vendor Registrations</a></li>
                             </ul>
                         </li>
@@ -225,39 +230,37 @@ function googleTranslateElementInit() {
             </div>
             
         </div><!-- row end -->
-    <section class="visible-lg">
+			<section class="visible-lg">
                 <div class="container dep" style="display:none;">
                     <div class="col-md-2">
                         <a href="/home/academics/departments/architecture">Architecture</a><br>
                         <a href="/home/academics/departments/cecase">CECASE</a><br>
                         <a href="/home/academics/departments/chem">Chemical Engineering</a><br>
                         <a href="/home/academics/departments/chemistry">Chemistry</a><br>
-                </div>  
-                <div class="col-md-3">
-                    <a href="/home/academics/departments/civil">Civil Engineering</a><br>
+					</div>  
+					<div class="col-md-3">
+						<a href="/home/academics/departments/civil">Civil Engineering</a><br>
                         <a href="/home/academics/departments/ca">Computer Applications</a><br>
                         <a href="/home/academics/departments/cse">Computer Science & Engineering</a><br>
                         <a href="/home/academics/departments/dee">DEE</a><br>
-                </div>
-                <div class="col-md-4">
-                    <a href="/home/academics/departments/eee">Electrical & Electronics Engineering</a><br>
+					</div>
+					<div class="col-md-4">
+						<a href="/home/academics/departments/eee">Electrical & Electronics Engineering</a><br>
                         <a href="/home/academics/departments/ece">Electronics & Communications Engineering</a><br>
                         <a href="/home/academics/departments/humanities">Humanities</a><br>
                         <a href="/home/academics/departments/ice">Instrumentation & Control Engineering</a><br>
                         <a href="/home/academics/departments/management">Management Studies</a><br>
-                </div>
-                <div class="col-md-3">
-                    
+					</div>
+					<div class="col-md-3">
                         <a href="/home/academics/departments/maths">Mathematics</a><br>
                         <a href="#/home/academics/departments/mech">Mechanical Engineering</a><br>
                         <a href="/home/academics/departments/meta">Metalurgical & Materials Engineering</a><br>
                         <a href="/home/academics/departments/prod">Production Engineering</a><br>
                         <a href="/home/academics/departments/physics">Physics</a><br>
-                        
-                </div>
+					</div>
+				</div><!-- container + head wrapper end -->
             </section>
-    </div><!-- container + head wrapper end -->
-    </header>
+</header>
 
 <a class="visible-xs toggler" style="text-align:right">☰</a>
 <div class="MenuSlider">
@@ -316,12 +319,12 @@ function googleTranslateElementInit() {
                 <div class="footer-col col-md-3 col-sm-6 about marginfooter">
                     <div class="footer-col-inner paddedfooter">
                         <h3>Academics</h3>
-                        <ul style="list-style-type: none;">
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Academics Programmes</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Departments</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Faculty</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Rules & Regulations</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Scholarships</a></li>
+                        <ul style="list-style:none;">
+                            <li><a href="/home/academics" class="footerlinks"><i class="fa fa-caret-right"></i> Academics Programmes</a></li>
+                            <li><a href="/home/academics/departments" class="footerlinks"><i class="fa fa-caret-right"></i> Departments</a></li>
+                            <li><a href="/home/academics/faculty" class="footerlinks"><i class="fa fa-caret-right"></i> Faculty</a></li>
+                            <li><a href="/home/academics/rules" class="footerlinks"><i class="fa fa-caret-right"></i> Rules &amp; Regulations</a></li>
+                            <li><a href="/home/academics/scholarships/" class="footerlinks"><i class="fa fa-caret-right"></i> Scholarships</a></li>
                         </ul>
                     </div><!--//footer-col-inner-->
                 </div><!--//foooter-col-->
@@ -329,12 +332,12 @@ function googleTranslateElementInit() {
                  <div class="footer-col col-md-3 col-sm-6 about marginfooter">
                     <div class="footer-col-inner paddedfooter">
                         <h3>Admissions</h3>
-                        <ul style="list-style-type: none;">
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> B.Tech/B.Arc</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> M.Tech/M.Sc</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> MCA/MBA</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> MS(research)</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Ph.D</a></li>
+                        <ul style="list-style:none;">
+                            <li><a href="/home/admissions/btech/" class="footerlinks"><i class="fa fa-caret-right"></i> B.Tech/B.Arch</a></li>
+                            <li><a href="/home/admissions/mtech/" class="footerlinks"><i class="fa fa-caret-right"></i> M.Tech/M.Sc</a></li>
+                            <li><a href="/home/admissions/mca/" class="footerlinks"><i class="fa fa-caret-right"></i> MCA/MBA</a></li>
+                            <li><a href="/home/admissions/ms" class="footerlinks"><i class="fa fa-caret-right"></i> MS(research)</a></li>
+                            <li><a href="/home/admissions/phd" class="footerlinks"><i class="fa fa-caret-right"></i> Ph.D</a></li>
                         </ul>
                     </div><!--//footer-col-inner-->
                 </div><!--//foooter-col-->
@@ -342,12 +345,11 @@ function googleTranslateElementInit() {
                 <div class="footer-col col-md-3 col-sm-6 about marginfooter">
                     <div class="footer-col-inner paddedfooter">
                         <h3>Students Life</h3>
-                        <ul style="list-style-type: none;">
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Events</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Clubs & Associations</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Hostel & Messes</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Office Of Dean(students)</a></li>
-                            
+                        <ul style="list-style:none;">
+                            <li><a href="/home/students/events" class="footerlinks"><i class="fa fa-caret-right"></i> Events</a></li>
+                            <li><a href="/home/students/clubsnassocs" class="footerlinks"><i class="fa fa-caret-right"></i> Clubs &amp;Associations</a></li>
+                            <li><a href="/home/students/facilitiesnservices/hostelsnmess/messes/" class="footerlinks"><i class="fa fa-caret-right"></i> Hostel &amp;Messes</a></li>
+                            <li><a href="/students/office" class="footerlinks"><i class="fa fa-caret-right"></i> Office Of Dean(students)</a></li>        
                         </ul>
                    </div><!--//footer-col-inner-->
                 </div><!--//foooter-col-->
@@ -355,13 +357,12 @@ function googleTranslateElementInit() {
                 <div class="footer-col col-md-3 col-sm-6 about marginfooter">
                     <div class="footer-col-inner paddedfooter">
                         <h3>Other Links</h3>
-                        <ul style="list-style-type: none;">
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Tenders & Notices</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> Job Opportunities</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> RTI</a></li>
-                            <li><a href="recal.nitt.edu" class="footerlinks"><i class="fa fa-caret-right"></i> Recal-Alumini</a></li>
-                            <li><a href="#" class="footerlinks"><i class="fa fa-caret-right"></i> SiteMap</a></li>
-                            
+                        <ul style="list-style:none;">
+                            <li><a href="/other/tenders" class="footerlinks"><i class="fa fa-caret-right"></i> Tenders &amp;Notices</a></li>
+                            <li><a href="/home/other/jobs/" class="footerlinks"><i class="fa fa-caret-right"></i> Job Opportunities</a></li>
+                            <li><a href="/righttoinfoact" class="footerlinks"><i class="fa fa-caret-right"></i> RTI</a></li>
+                            <li><a href="/students/clubsnassocs/alumni/recal/" class="footerlinks"><i class="fa fa-caret-right"></i> Recal-Alumini</a></li>
+                            <li><a href="/sitemap" class="footerlinks"><i class="fa fa-caret-right"></i> SiteMap</a></li>
                         </ul>
                     </div><!--//footer-col-inner-->
                 </div><!--//foooter-col-->
@@ -375,7 +376,8 @@ function googleTranslateElementInit() {
             	<div class="col-lg-12">
                 
                 	<p class="copy-text text-inverse">
-                 <small class="copyright col-md-12 col-sm-12 col-xs-12 text-center">Copyright @ 2015 National Institute of Technology | Made with &#10084; by <a href="http://testing.nitt.edu/home/webteam"> Web-Team, NIT Trichy</a></small>
+						<small class="copyright col-md-12 col-sm-12 col-xs-12 text-center">Copyright @ 2015 National Institute of Technology </small></br> 
+						<small class="acknowledgement col-md-12 col-sm-12 col-xs-12 text-center">Made with &#10084; by <a href="/home/webteam"> Web-Team, NIT Trichy</a></small>
                     </p>
                 
                 </div>
