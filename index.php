@@ -76,7 +76,7 @@ function googleTranslateElementInit() {
 <body onload="<?php echo $STARTSCRIPTS; ?>" >
 
 <header class="myheader" >
-	<img id="headerimg" src="<?php echo $TEMPLATEBROWSERPATH; ?>/image/header.png" style="padding:10px 0px 10px 0px;" />
+	<img id="headerimg" src="<?php echo $TEMPLATEBROWSERPATH; ?>/image/nitt-site-header_all.png" style="padding:10px 0px 10px 0px;" />
     <!-- device test, don't remove. javascript needed! -->
     <!-- <span class="visible-xs" style="padding-bottom:5px;background-color:#cc0033;" ></span><span class="visible-sm"></span><span class="visible-md"></span><span class="visible-lg" style="padding-bottom:5px;background-color:#cc0033;"></span> -->
     <!-- device test end -->
@@ -95,9 +95,13 @@ function googleTranslateElementInit() {
 							$(this).find('i').toggleClass('fa-toggle-off fa-toggle-on');
 							$('.dashboard').toggle('fast');
 						});
-						if($(window).width() < 1040)
+						if($(window).width() < 768)
 						{
 							$(".myheader").children("#headerimg").attr("src", "<?php echo $TEMPLATEBROWSERPATH; ?>/image/mobile_header.png");
+						}
+						else
+						{
+							$(".myheader").children("#headerimg").attr("src", "<?php echo $TEMPLATEBROWSERPATH; ?>/image/nitt-site-header_all.png");
 						}
 					</script>
                     <li><a href="https://webmail.nitt.edu/">Webmail</a></li>
