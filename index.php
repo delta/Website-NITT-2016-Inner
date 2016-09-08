@@ -149,31 +149,17 @@ function googleTranslateElementInit() {
         
                     <ul id="drop-down-left" class="k-dropdown-menu">
                         <li>
-                            <a href="/" title="">Homepage</a>
+                            <a href="/about/" title="">About</a>
                         </li>
                         <li>
-                            <a href="/home/about/" title=""><i class="fa fa-caret-down"></i> About</a>
-                            <ul class="sub-menu">
-                                <li><a href="#"> Mission & Vision </a></li>
-                                <li><a href="http://recal.nitt.edu/"> Alumni </a></li>
-                            </ul>
+                            <a href="/administration/" title="">Administration</a>
                         </li>
-						<li>
-                            <a href="/home/students/" title=""><i class="fa fa-caret-down"></i> Student Links</a>
-							<ul class="sub-menu">
-                                <li><a href="/home/academics/formats/">Forms &amp;Downloads </a></li>
-                                <li><a href="/home/academics/scholarships/">Scholarships </a></li>
-                                <li><a href="/prm/showresult.htm">Semester Results</a></li>
-                                <li><a href="/home/academics/Time%20Table">Time Table</a></li>
-								<li><a href="/home/students/clubsnassocs/">Clubs</a></li>
-                                <li><a href="/home/students/clubsnassocs/sports">Sports</a></li>
-                                <li><a href="/home/intranet/">Portals</a></li>
-                                <li><a href="/home/students/facilitiesnservices/ComputerSupportGroup/contact%20address/">Contact</a></li>
-                            </ul>
+                        <li>
+                            <a href="/academics/" title="">Academics</a>
                         </li>
                         <li>
                            <a  href="/home/admissions/" title=""><i class="fa fa-caret-down"></i> Admissions</a>
-						   <ul class="sub-menu">
+                           <ul class="sub-menu">
                                 <li><a href="/home/admissions/btech/">B.Tech. </a></li>
                                 <li><a href="/home/admissions/mtech/">M.Tech. </a></li>   
                                 <li><a href="/home/admissions/phd/">Ph.D.</a></li>
@@ -183,16 +169,16 @@ function googleTranslateElementInit() {
                         <li>
                             <a id="d" href="#" title="" class="department"><i class="fa fa-toggle-off"></i> Department</a>
                             <script>$('#d').click(function(){$(this).find('i').toggleClass('fa-toggle-off fa-toggle-on');});</script>
-                            <ul class="visible-xs sub-menu">
-                                <li><a href="/home/academics/departments/cse/">Computer Science & Engineering</a></li>
-                                <li><a href="/home/academics/departments/eee">Electrical & Electronics Engineering</a></li>
-                                <li><a href="/home/academics/departments/ece">Electronics & Communication Engineering</a></li>
-                                <li><a href="/home/academics/departments/ice">Instrumentation & Control Engineering</a></li>
+                            <ul class="sub-menu visible-xs">
+                                <li><a href="/home/academics/departments/cse/">Computer Science &amp; Engineering</a></li>
+                                <li><a href="/home/academics/departments/eee/">Electrical &amp;Electronics Engineering</a></li>
+                                <li><a href="/home/academics/departments/ece/">Electronics &amp;Communication Engineering</a></li>
+                                <li><a href="/home/academics/departments/ice">Instrumentation &amp;Control Engineering</a></li>
                                 <li><a href="/home/academics/departments/mech">Mechanical Engineering</a></li>
                                 <li><a href="/home/academics/departments/civil">Civil Engineering</a></li>
                                 <li><a href="/home/academics/departments/chem">Chemical Engineering</a></li>
                                 <li><a href="/home/academics/departments/prod">Production Engineering</a></li>
-                                <li><a href="/home/academics/departments/meta">Metallurgical & Material's Engineering</a></li>
+                                <li><a href="/home/academics/departments/meta">Metalurgical &amp;Material's Engineering</a></li>
                                 <li>
                                     <a href="#">Others</a>
                                     <ul class="sub-menu">
@@ -207,25 +193,11 @@ function googleTranslateElementInit() {
                             </ul>
                         </li>
                         <li>
-                            <a href="#" title=""><i class="fa fa-caret-down"></i> Initiatives</a>
-                            <ul class="sub-menu">
-                                <li><a href="/home/other/cedi/">CEDI </a></li>
-                                <li><a href="#">Startup Weekend</a></li>
-                                <li><a href="#">Internet Of Things</a></li>
-                                <li><a href="#">Innovation Center</a></li>
-                                <li><a href="#">Green Campus</a></li>
-                            </ul>
+                            <a href="/students/events/" title="">Events </a>
                         </li>
                         <li>
-                            <a href="/home/icsr/iii" title=""><i class="fa fa-caret-down"></i> Industry</a>
-							<ul class="sub-menu">
-                                <li><a href="/home/students/facilitiesnservices/tp/">Placements at NITT </a></li>
-                                <li><a href="/home/academics/scholarships/">Scholarships </a></li>
-                                <li><a href="/home/rc">Consultancy &amp; Research</a></li>
-                                <li><a href="/home/academics/mou">MoU &lsquo;s signed</a></li>
-								<li><a href="/other/tenders">Tender Invitations</a></li>
-                                <li><a href="#">Vendor Registrations</a></li>
-                            </ul>
+                            <a href="/contact" title="">Contact</a>
+
                         </li>
                     </ul>
         
